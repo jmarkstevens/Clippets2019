@@ -1,0 +1,30 @@
+{
+  "name": "babel-webpack",
+  "version": "1.0.0",
+  "main": "src/app.js",
+  "author": "J Mark Stevens",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server --config wp/wp.config.js --mode development",
+    "build": "webpack --config wp/wp.config.js --mode production"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.2.1"
+  },
+  "dependencies": {
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ]
+  }
+}
