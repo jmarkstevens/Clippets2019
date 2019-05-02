@@ -5,11 +5,11 @@ import { Provider } from 'react-redux'
 import './app.scss'
 
 import AppStore from './App.Store'
-import AppContainer from './containers/app'
+import AppComponent from './components/app'
 
 ReactDom.render(
   <Provider store={AppStore}>
-    <AppContainer />
+    <AppComponent />
   </Provider>,
   document.getElementById('react-app')
 )
