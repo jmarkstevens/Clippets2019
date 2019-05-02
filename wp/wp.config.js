@@ -1,28 +1,44 @@
-const path = require('path');
+/* eslint-disable import/no-extraneous-dependencies */
+const path = require('path')
+const HtmlWebpackPlugin = require('html-webpack-plugin')
+const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 
-const ROOT_PATH = path.resolve(__dirname);
-const DIST_PATH = path.resolve(ROOT_PATH, '../dist');
+const ROOT_PATH = path.resolve(__dirname)
+const DIST_PATH = path.resolve(ROOT_PATH, '../dist')
 
 module.exports = {
-  entry: { app: './src/app.js' },
+  devServer: {
+    contentBase: './dist',
+    host: '0.0.0.0'
+  },
+  entry: {
+    app: './src/app.jsx'
+  },
   module: {
     rules: [
       {
         test: /\.(js|jsx)$/,
         exclude: /node_modules/,
         use: ['babel-loader']
+      },
+      {
+        test: /\.scss$/,
+        use: [MiniCssExtractPlugin.loader, 'css-loader', 'sass-loader']
       }
     ]
-  },
-  resolve: {
-    extensions: ['*', '.js', '.jsx']
   },
   output: {
     path: DIST_PATH,
     publicPath: '/',
-    filename: 'bundle.js'
+    filename: '[name].js'
   },
-  devServer: {
-    contentBase: './dist'
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: 'src/index.html'
+    }),
+    new MiniCssExtractPlugin()
+  ],
+  resolve: {
+    extensions: ['*', '.css', '.js', '.jsx', '.scss']
   }
-};
+}
