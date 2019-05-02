@@ -2,6 +2,8 @@ const { app, BrowserWindow, ipcMain } = require('electron')
 const fs = require('fs')
 const config = require('./config.json')
 
+const useDevTools = true
+
 let configRoot
 switch (process.platform) {
   case 'darwin':
@@ -24,7 +26,10 @@ require('./js/mainipc.js')(ipcMain)
 let mainWindow = null
 const mainWindowOptions = {
   icon: './dist/img/Clippets1.ico',
-  title: 'Clippets'
+  title: 'Clippets',
+  webPreferences: {
+    nodeIntegration: true
+  }
 }
 
 app.on('window-all-closed', () => {
@@ -36,7 +41,7 @@ app.on('ready', () => {
 
   const windowStatePath = `${rootDataPath}windowstate.json`
   let windowState = {}
-  if (false) mainWindow.openDevTools()
+  if (useDevTools) mainWindow.openDevTools()
   const jsonReadCallBack = (err, data) => {
     if (err) console.log('error opening windowstate')
     else {
@@ -47,7 +52,7 @@ app.on('ready', () => {
   }
   fs.readFile(windowStatePath, jsonReadCallBack)
 
-  mainWindow.loadURL(`file://${__dirname}/dist/index.html`)
+  mainWindow.loadFile(`./dist/index.html`)
   mainWindow.on('close', () => {
     windowState.size = mainWindow.getSize()
     windowState.position = mainWindow.getPosition()

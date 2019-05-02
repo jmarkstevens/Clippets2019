@@ -2,19 +2,19 @@ import * as Actions from './api.Actions'
 
 export function ipcMiddleware(store) {
   return next => action => {
-    if (ipc) {
+    if (ipcRenderer) {
       switch (action.type) {
         case 'ApiGetTreeData':
-          ipc.send('client:GetTreeData', {})
+          ipcRenderer.send('client:GetTreeData', {})
           break
         case 'ApiSetTreeData':
-          ipc.send('client:SetTreeData', action.data)
+          ipcRenderer.send('client:SetTreeData', action.data)
           break
         case 'ApiGetSnipData':
-          ipc.send('client:GetSnipData', action.data)
+          ipcRenderer.send('client:GetSnipData', action.data)
           break
         case 'ApiSetSnipData':
-          ipc.send('client:SetSnipData', action.data)
+          ipcRenderer.send('client:SetSnipData', action.data)
           break
         case 'ApiGetClipboard':
           store.dispatch(Actions.apiGetClipboardDone(clipboard.readText()))
@@ -31,11 +31,11 @@ export function ipcMiddleware(store) {
 }
 
 export function startIpc(store) {
-  ipc.on('server:GetTreeDataDone', (event, data) => {
+  ipcRenderer.on('server:GetTreeDataDone', (event, data) => {
     store.dispatch(Actions.apiGetTreeDataDone(data))
   })
 
-  ipc.on('server:GetSnipDataDone', (event, data) => {
+  ipcRenderer.on('server:GetSnipDataDone', (event, data) => {
     store.dispatch(Actions.apiGetSnipDataDone(data))
   })
 }

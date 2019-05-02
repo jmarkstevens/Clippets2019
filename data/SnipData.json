@@ -1,6 +1,6 @@
 [
   {
-    "nextid": 145,
+    "nextid": 165,
     "nodeid": "001"
   },
   {
@@ -137,6 +137,26 @@
       {
         "comment": "",
         "snip": "git remote add origin <project url>"
+      },
+      {
+        "comment": "add or refresh branch from cloned repository",
+        "snip": "$ git remote add upstream ssh://path/to/original/repo\n$ git checkout master\n$ git fetch upstream # Instead of \"fetch\" & \"merge\", \"pull\" would also work\n$ git merge upstream/master \n"
+      },
+      {
+        "comment": "list of commits piped to file",
+        "snip": "git log > gitLog.json"
+      },
+      {
+        "comment": "pipe commit details to file",
+        "snip": "git show commit > gitShow.js"
+      },
+      {
+        "comment": "github recovery codes",
+        "snip": "f8c67-dc9e2 \n3f4c3-c6d95 \n986c7-5fb77 \n3fe99-99ff8 \n9a6b8-ffaf9 \ne2fdd-419aa \n36c37-37899 \nac0a6-b0eba \n0d9f5-5a2b0 \n0c4e0-b320e \nb0a5b-be4c2 \n51c7b-faf09 \n46a52-93f40 \n80487-b0b96 \n71be3-76b23 \nec4f0-a5579"
+      },
+      {
+        "comment": "",
+        "snip": "exit vim escape : q!"
       }
     ]
   },
@@ -198,6 +218,22 @@
       {
         "comment": "",
         "snip": "4909 Adrianna payoff data\n\n"
+      },
+      {
+        "comment": "public ip 07/20/18",
+        "snip": "192.225.117.173"
+      },
+      {
+        "comment": "",
+        "snip": "800-308-2227 mmi\nhope hotline 888-995-4673\n\nmmi Tiffany "
+      },
+      {
+        "comment": "",
+        "snip": "lat=33.264611\nlon=-117.083043"
+      },
+      {
+        "comment": "",
+        "snip": "1576 east ocean blvd., Newport beach, california 92661"
       }
     ]
   },
@@ -445,12 +481,16 @@
         "snip": "find . -name \"*.js\" -exec bash -c 'mv \"$1\" \"${1%.js}\".ts' - '{}' \\;\n"
       },
       {
-        "comment": "symlink pointing to github from atom/packages",
-        "snip": "ln -s /Users/jmarkstevens/github/twilight-j3 /Users/jmarkstevens/.atom/packages\n"
+        "comment": "symlink pattern",
+        "snip": "ln -s source destination\n"
       },
       {
         "comment": "screenshot",
         "snip": "Shift-Command-4"
+      },
+      {
+        "comment": "list ",
+        "snip": "git log > outfile"
       }
     ]
   },
@@ -800,6 +840,14 @@
       {
         "comment": "",
         "snip": "⌘ \tCommand key\n⌃ \tControl key\n⌥ \tOption key\n⇧ \tShift Key\n⇪ \tCaps Lock\nfn \tFunction Key"
+      },
+      {
+        "comment": "screenshot to desktop",
+        "snip": "shift-cmd-4"
+      },
+      {
+        "comment": "screenshot to clipboard",
+        "snip": "ctr-shift-cmd-4"
       }
     ]
   },
@@ -1140,6 +1188,14 @@
       {
         "comment": "",
         "snip": "ssh-add ~/.ssh/jmarkstevens-Bitbucket\n"
+      },
+      {
+        "comment": "",
+        "snip": "09/2013 - 01/2015 AngularJS\n01/2015 - React\n08/2017 - React Native\n"
+      },
+      {
+        "comment": "Google Maps apiKey",
+        "snip": "AIzaSyDcsh25a_J-Plt-TjiPNXDvZ-qMnuzt3vc"
       }
     ]
   },
@@ -1708,6 +1764,10 @@
       {
         "comment": "",
         "snip": "export PLANTSIGNSPORT=6600"
+      },
+      {
+        "comment": "blue host ip",
+        "snip": "50.87.249.14"
       }
     ]
   },
@@ -1725,6 +1785,18 @@
       {
         "comment": "",
         "snip": "parseInt(e.target.id)"
+      },
+      {
+        "comment": "",
+        "snip": "import PropTypes from 'prop-types';\n\nMyComponent.propTypes = {\n  hide: PropTypes.bool,\n};\n\n  optionalArray: PropTypes.array,\n  optionalBool: PropTypes.bool,\n  optionalFunc: PropTypes.func,\n  optionalNumber: PropTypes.number,\n  optionalObject: PropTypes.object,\n  optionalString: PropTypes.string,\n  optionalSymbol: PropTypes.symbol,\n"
+      },
+      {
+        "comment": "",
+        "snip": "create-react-app "
+      },
+      {
+        "comment": "",
+        "snip": "create-react-app web --scripts-version=react-scripts-ts"
       }
     ]
   },
@@ -1741,6 +1813,10 @@
       },
       {
         "comment": "",
+        "snip": "With excel\n\nload latest palmlist and palmlistj\n\ninsert header line from latest to second line of palmlistj\n\ncheck for changes in columns\n\ncopy top line of palmlistj and overwrite header line in latest\n\nremove columns without header (blank)\n\nsave"
+      },
+      {
+        "comment": "",
         "snip": "yarn run palmlist"
       },
       {
@@ -1752,8 +1828,8 @@
         "snip": "yarn run filterlist"
       },
       {
-        "comment": "201702",
-        "snip": "Genus count:    35\nSpecies count:  111\nParts count:    2244"
+        "comment": "201808",
+        "snip": "Genus count:    35\nSpecies count:  115 excel\nSpecies count:   115  images\nParts count:    2543"
       }
     ]
   },
@@ -1893,6 +1969,18 @@
       {
         "comment": "",
         "snip": "/* eslint-enable */"
+      },
+      {
+        "comment": "",
+        "snip": " // eslint-disable-line"
+      },
+      {
+        "comment": "",
+        "snip": "// eslint-disable-next-line"
+      },
+      {
+        "comment": "",
+        "snip": "yarn add -D eslint eslint-config-airbnb-base eslint-plugin-import\n"
       }
     ]
   },
@@ -1949,12 +2037,12 @@
         "snip": "J. Mark Stevens Consulting"
       },
       {
-        "snip": "Mobile, Web and Desktop Application Developer",
-        "comment": ""
+        "comment": "",
+        "snip": "Web and Desktop Application Developer"
       },
       {
-        "snip": "Seasoned front and back end software developer with over 15 years of experience creating web and database applications. Skilled at designing, coding, testing, and implementing software solutions. Specialization with web applications that work on a desktop as well as tablet and smartphone. Focus on small business or department level database-driven software that integrates all functionality for a domain.",
-        "comment": ""
+        "comment": "",
+        "snip": "Seasoned front and back end software developer with over 20 years of experience creating web and database applications. Skilled at designing, coding, testing, and implementing software solutions. Specialization with web applications that work on a desktop as well as tablet and smartphone. Focus on small business or department level database-driven software that integrates all functionality for a domain."
       },
       {
         "comment": "",
@@ -1965,8 +2053,8 @@
         "snip": "Experienced Web/Desktop Software Developer and Consultant"
       },
       {
-        "snip": "Hi, my name is Mark Stevens and I have over 15 years of experience as a software developer/consultant. I specialize in full stack data intensive line of business and web applications. By full stack I mean the front end (UI) and the back end (database and web server).",
-        "comment": ""
+        "comment": "",
+        "snip": "Hi, my name is Mark Stevens and I have over 20 years of experience as a software developer/consultant. I specialize in full stack data intensive line of business and web applications. By full stack I mean the front end (UI) and the back end (database and web server)."
       },
       {
         "comment": "",
@@ -2025,6 +2113,10 @@
       {
         "comment": "",
         "snip": "yarn add eslint eslint-config-airbnb eslint-plugin-jsx-a11y eslint-plugin-import eslint-plugin-react -D"
+      },
+      {
+        "comment": "",
+        "snip": "yarn upgrade-interactive"
       }
     ]
   },
@@ -2206,6 +2298,10 @@
       {
         "comment": "after installing/updating yarn, fixes global installs",
         "snip": "export PATH=\"$PATH:$HOME/.config/yarn/global/node_modules/.bin\""
+      },
+      {
+        "comment": "",
+        "snip": "==> mongodb\nTo have launchd start mongodb now and restart at login:\n  brew services start mongodb\nOr, if you don't want/need a background service you can just run:\n  mongod --config /usr/local/etc/mongod.conf"
       }
     ]
   },
@@ -2638,7 +2734,15 @@
       },
       {
         "comment": "",
+        "snip": "find . -name \"*.jsx\" -exec bash -c 'mv \"$1\" \"${1%.jsx}\".tsx' - '{}' \\;\n"
+      },
+      {
+        "comment": "",
         "snip": "find . -name \"*.ts\" -exec bash -c 'mv \"$1\" \"${1%.ts}\".js' - '{}' \\;\n"
+      },
+      {
+        "comment": "",
+        "snip": "find . -name \"*.ts\" -exec bash -c 'mv \"$1\" \"${1%.ts}\".tsx' - '{}' \\;\n"
       }
     ]
   },
@@ -2722,6 +2826,42 @@
       {
         "comment": "",
         "snip": "cd ~/Kykas/Patterns/AngularPatterns/Angular4.ts/ReduxSocketIO\n"
+      },
+      {
+        "comment": "",
+        "snip": "ng g c modules/jms/button -p jms --spec false -m modules/jms --export\nng g c modules/ui/button -p ui --spec false -m modules/ui --export\n"
+      },
+      {
+        "comment": "",
+        "snip": "ng g c modules/ui/tree -p ui --spec false -m modules/ui\n"
+      },
+      {
+        "comment": "",
+        "snip": "ng g c modules/ui/drop-down/drop-menu -p ui --spec false -m modules/ui --export\nng g c modules/ui/drop-down/drop-multi -p ui --spec false -m modules/ui --export\nng g c modules/ui/drop-down/drop-select -p ui --spec false -m modules/ui --export\n"
+      },
+      {
+        "comment": "",
+        "snip": "ng g c modules/jms/gallery/help -p jms-gallery --spec false -m modules/jms\n"
+      },
+      {
+        "comment": "",
+        "snip": "ng g c modules/ui/modal/modal-popup -p ui --spec false -m modules/ui\n"
+      },
+      {
+        "comment": "",
+        "snip": "ng g s service/tree-state --spec false\n"
+      },
+      {
+        "comment": "",
+        "snip": "ng g c modules/ui/button -p ui --spec false -m modules/ui --export\n"
+      },
+      {
+        "comment": "",
+        "snip": "ng serve  --proxy-config proxy.conf.json"
+      },
+      {
+        "comment": "proxy.conf.json",
+        "snip": "{\n  \"/api/*\": {\n    \"target\": \"http://localhost:3000\",\n    \"secure\": false,\n    \"pathRewrite\": {\"^/api\" : \"\"}\n  }\n}"
       }
     ]
   },
@@ -3408,6 +3548,10 @@
         "snip": "exp start --dev --no-minify --lan --clear\n"
       },
       {
+        "comment": "",
+        "snip": "expo start --dev --no-minify --clear\n"
+      },
+      {
         "comment": "CloudWatch Log Groups mobilelog",
         "snip": "mark,Popcodes2018,,,https://489278327972.signin.aws.amazon.com/console"
       },
@@ -3857,6 +4001,588 @@
       {
         "comment": "",
         "snip": "Steps to add identical subflows which allow independent editing.\n\n1. create and save flow to become subflow\n2. export flow to become subflow\n3. open flow to receive subflows\n4. import exported flow to become subflow. leave default import to current flow\n5. create subflow\n6. copy imported flow into subflow. add in and out\n7. add subflow to flow in tab 1\nrepeat 5,6 and 7\ndelete imported tab, close subflow tabs, save flow\nto edit subflows double click select edit subflow\n"
+      }
+    ]
+  },
+  {
+    "nodeid": ".147",
+    "snips": [
+      {
+        "comment": "",
+        "snip": "Open-Source  Contributions/  Community  Servicea.\n\nCan  spend  up  to  two(2)paid  hours  per  week  on  open  source  contributionsor  community  serviceb.\n\nOpen  Source  contributions  MUST  reference  back  to  the  SurgeForward  GitHub  accountc.\n\nCommunity  Service  must  be  software  developmentrelatedand  provide  credit  backto  Surge  via  advertisement  of  some  kind  (such  as  wearing  a  Surge  logo  t-shirt)d.\n\nReport  back  to  Surge  Management(we  encourage  pictures,  event  details,  sharing  of  experiences,  etc.)"
+      },
+      {
+        "comment": "",
+        "snip": "cat ~/.ssh/jmarkstevens-GitHub.pub | pbcopy"
+      },
+      {
+        "comment": "",
+        "snip": "jmarkstevens-Bitbucket.pub"
+      }
+    ]
+  },
+  {
+    "nodeid": "53.148",
+    "snips": []
+  },
+  {
+    "nodeid": "149",
+    "snips": []
+  },
+  {
+    "nodeid": "149.150",
+    "snips": [
+      {
+        "comment": "",
+        "snip": "Open Listing - MapBox\nAirbnb - TomTom\nZillow - TomTom\nRedfin - TomTom\nTrulia - TomTom\n"
+      }
+    ]
+  },
+  {
+    "nodeid": "1.151",
+    "snips": [
+      {
+        "comment": "",
+        "snip": "npm i -g react-native-cli"
+      },
+      {
+        "comment": "",
+        "snip": "react-native init "
+      },
+      {
+        "comment": "",
+        "snip": "yarn start -- --reset-cache\n"
+      },
+      {
+        "comment": "Generating a signing key for android\njanakrn1\njanakk1\n",
+        "snip": "sudo keytool -genkey -v -keystore appiumtest.keystore -alias rnandroid1 -keyalg RSA -keysize 2048 -validity 10000"
+      },
+      {
+        "comment": "",
+        "snip": "react-native run-android --variant=release"
+      },
+      {
+        "comment": "",
+        "snip": "react-native run-ios --configuration Release"
+      },
+      {
+        "comment": "",
+        "snip": "react-native bundle --entry-file index.js --bundle-output='./ios/main.jsbundle' --dev=false --platform='ios' --assets-dest='./ios'"
+      },
+      {
+        "comment": "",
+        "snip": "react-native bundle --entry-file index.js --platform android --dev false --bundle-output android/main.jsbundle --assets-dest android"
+      },
+      {
+        "comment": "",
+        "snip": "react-native bundle --dev false --platform android --entry-file index.js --bundle-output ./android/app/build/intermediates/assets/debug/index.android.bundle --assets-dest ./android/app/build/intermediates/res/merged/debug\n"
+      },
+      {
+        "comment": "Create saved debug app",
+        "snip": "react-native run-ios --configuration Debug"
+      },
+      {
+        "comment": "",
+        "snip": "react-native run-ios --simulator=\"iPhone 8 Plus\"\n"
+      },
+      {
+        "comment": "",
+        "snip": "react-native-git-upgrade"
+      },
+      {
+        "comment": "For Android issues",
+        "snip": "./gradlew clean"
+      },
+      {
+        "comment": "",
+        "snip": "adb uninstall com.kwconsumermobile"
+      },
+      {
+        "comment": "",
+        "snip": "watchman watch-del-all && rm -rf $TMPDIR/react-native-packager-cache-* && rm -rf $TMPDIR/metro-bundler-cache-* && yarn start --reset-cache\n"
+      },
+      {
+        "comment": "",
+        "snip": "react-native run-ios --simulator=\"iPhone X\"\n"
+      },
+      {
+        "comment": "",
+        "snip": "yarn add -D babel-eslint babel-preset-react-native babel-preset-react-native-stage-0 babel-register babel-runtime\n"
+      },
+      {
+        "comment": "",
+        "snip": "yarn add --dev @babel/preset-flow flow-bin\n"
+      },
+      {
+        "comment": "",
+        "snip": "yarn add react-navigation react-native-gesture-handler\n"
+      },
+      {
+        "comment": "",
+        "snip": "react-native link react-native-gesture-handler\n"
+      },
+      {
+        "comment": "",
+        "snip": "react-native run-android --variant=debug\n"
+      },
+      {
+        "comment": "",
+        "snip": "react-native run-ios --simulator=\"iPhone Xʀ\"\n"
+      }
+    ]
+  },
+  {
+    "nodeid": "149.152",
+    "snips": [
+      {
+        "comment": "",
+        "snip": "cd /Users/jmarkstevens/Kykas/Active/react_rn/yw2/packages/app"
+      }
+    ]
+  },
+  {
+    "nodeid": "1.153",
+    "snips": [
+      {
+        "comment": "",
+        "snip": "yarn add apollo-client apollo-cache-inmemory apollo-link-http apollo-link-error apollo-link\n"
+      },
+      {
+        "comment": "",
+        "snip": "yarn add react-apollo graphql graphql-tag\n"
+      },
+      {
+        "comment": "for local state",
+        "snip": "yarn add apollo-link-state\n"
+      }
+    ]
+  },
+  {
+    "nodeid": "149.154",
+    "snips": [
+      {
+        "comment": "",
+        "snip": "This is the Keller Williams Consumer web and mobile project"
+      },
+      {
+        "comment": "",
+        "snip": "kw-consumer-mobile-app"
+      },
+      {
+        "comment": "",
+        "snip": "https://github.com/mokriya-org/kw-consumer-mobile-app.git"
+      },
+      {
+        "comment": "",
+        "snip": "\n  pod 'FirebaseUI/Auth'\n\n  pod 'FirebaseUI/Google'\n  pod 'FirebaseUI/Facebook'\n  pod 'FirebaseUI/Twitter'\n  pod 'FirebaseUI/Phone'\n"
+      },
+      {
+        "comment": "",
+        "snip": "\n  pod 'Firebase/Auth'\n  pod 'Firebase/Database'\n  pod 'Firebase/Messaging'\n"
+      },
+      {
+        "comment": "",
+        "snip": "inkscape --without-gui --file=icons24X24NavigationFeed.pdf --export-plain-svg=NavigationFeed.svg"
+      },
+      {
+        "comment": "",
+        "snip": "/Applications/Inkscape.app/Contents/Resources/bin/inkscape-bin --without-gui --file=icons24X24NavigationSearch.pdf --export-plain-svg=NavigationSearch.svg"
+      },
+      {
+        "comment": "",
+        "snip": " curl -u \"diogowbritosaucelabs:e87c5217-29fc-4d0b-af1f-8795e0597e6e\" -X POST -H \"Content-Type: application/octet-stream\" https://saucelabs.com/rest/v1/storage/diogowbritosaucelabs/kwconsumertest.apk?overwrite=true --data-binary @/Users/jmarkstevens/Kykas/Mokriya/kw-consumer-mobile-app/android/app/build/outputs/apk/release/kwconsumertest.apk\n\n"
+      },
+      {
+        "comment": "",
+        "snip": "node node_modules/react-native-text-gradient/patch-rn.js"
+      }
+    ]
+  },
+  {
+    "nodeid": "1.155",
+    "snips": [
+      {
+        "comment": "",
+        "snip": "redis-server /usr/local/etc/redis.conf\n"
+      },
+      {
+        "comment": "",
+        "snip": "redis-cli ping"
+      }
+    ]
+  },
+  {
+    "nodeid": "149.156",
+    "snips": [
+      {
+        "comment": "",
+        "snip": "expo start --no-dev --minify --clear\n"
+      },
+      {
+        "comment": "",
+        "snip": "expo start -c\n"
+      },
+      {
+        "comment": "",
+        "snip": "expo start --dev --no-minify --clear\n"
+      },
+      {
+        "comment": "",
+        "snip": "sellerexperience@jane.com"
+      },
+      {
+        "comment": "",
+        "snip": "Test1234!"
+      },
+      {
+        "comment": "buyer",
+        "snip": "sharma@mokriya.com"
+      },
+      {
+        "comment": "",
+        "snip": "janeburner"
+      },
+      {
+        "comment": "jane vpn",
+        "snip": "Mstevens"
+      },
+      {
+        "comment": "",
+        "snip": "R6PQ<y+\"F?"
+      },
+      {
+        "comment": "",
+        "snip": "react-native start"
+      },
+      {
+        "comment": "",
+        "snip": "watchman watch-del-all && rm -rf $TMPDIR/react-native-packager-cache-* && rm -rf $TMPDIR/metro-bundler-cache-* && react-native start --reset-cache\n"
+      },
+      {
+        "comment": "",
+        "snip": "react-native run-ios --simulator=\"iPhone X\"\n"
+      },
+      {
+        "comment": "",
+        "snip": "react-native run-android --variant=debug\n"
+      },
+      {
+        "comment": "",
+        "snip": "npm login\n"
+      },
+      {
+        "comment": "",
+        "snip": "jmarkstevens\n"
+      },
+      {
+        "comment": "",
+        "snip": "dxfrp,u8dd3PjPQA\n"
+      },
+      {
+        "comment": "",
+        "snip": "npm@jmarkstevens.com\n"
+      },
+      {
+        "comment": "",
+        "snip": "rm -rf node_modules && rm package-lock.json\n"
+      },
+      {
+        "comment": "",
+        "snip": "rm -rf node_modules\n"
+      },
+      {
+        "comment": "",
+        "snip": "rm package-lock.json\n"
+      },
+      {
+        "comment": "",
+        "snip": "git rm --cached -r ios/Pods/**/*"
+      },
+      {
+        "comment": "",
+        "snip": "rm package-lock.json && rm ios/Podfile.lock\n"
+      },
+      {
+        "comment": "",
+        "snip": "git rebase -p --onto ^"
+      },
+      {
+        "comment": "",
+        "snip": "@janecorp/jane-react-appsync"
+      },
+      {
+        "comment": "buyer token",
+        "snip": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjVEWklfVWQxcEVHcllEZUJiSFJDdXRjN0VobyIsIng1dCI6IjVEWklfVWQxcEVHcllEZUJiSFJDdXRjN0VobyJ9.eyJuYW1laWQiOiIwOTM4ODMyOWZlMTU0NDFmODE4ZGZkYTU3NDYyZDNhZiIsImlpZCI6IjczNDQ1NTI5IiwiZW1haWwiOiJzaGFybWFAbW9rcml5YS5jb20iLCJ1bmlxdWVfbmFtZSI6IlNoYXJtYSBFbGFudGhpcmFpeWFuIEsiLCJmYW1pbHlfbmFtZSI6IlYiLCJyb2xlIjoiY3VzdG9tZXIiLCJzZWMiOiIwIiwiaWF0IjoxNTQ5NDk0NDk2LCJpc3MiOiJodHRwczovL2FwaS5qYW5ldGVzdC5jb20vdjEuMCIsImF1ZCI6ImphbmUiLCJleHAiOjE1NTAxODU2OTYsIm5iZiI6MTU0OTQ5NDQ5Nn0.Gyj3y--Vh-h7Wd5-3NezQPKSggcK7_rVC8I5_rDKBqy_mjE3f6l7tzKcu6ndeZ1OwY3lwsdiTvC5rz4jxkzOZ1-oCBruXyLTXySo9B1gCrjOFCjqAHpiA-aVPsea7BYvW3JMnp3QUlQixALqT0qAMdygwyPPH4zoT6qU1LaJAUsqF39pERzIz20fywd-OL3UPHcwcOnz1AVUX2mz5lJVCibmNXfV7oBGIBlw0BFHl01xiPXK3hxPr6-EHt6dTR9paM6IaXZTs6_lwoRgshLfB8_-kzGtNG6zOK3H-MgFFuZtcwNdb772rH1-K5Dhd7YWhbSWoeY27qsMeVnXzRmpVw"
+      },
+      {
+        "comment": "login as Sharma, go to settings content cookies",
+        "snip": "https://orders-lab.jane.local/"
+      },
+      {
+        "comment": "conversationGuid",
+        "snip": "6d2bd6ee8a7a4e4e93174a1d1436ff71"
+      },
+      {
+        "comment": "Alex vpn login",
+        "snip": "Abarreira"
+      },
+      {
+        "comment": "Alex vpn password",
+        "snip": "sTtQ3Jv7FMAu%"
+      },
+      {
+        "comment": "key store password",
+        "snip": "janetest"
+      },
+      {
+        "comment": "",
+        "snip": "adb uninstall com.jane.seller.android"
+      }
+    ]
+  },
+  {
+    "nodeid": "1.157",
+    "snips": [
+      {
+        "comment": "",
+        "snip": "rm -rf .git/REBASE_HEAD\n"
+      }
+    ]
+  },
+  {
+    "nodeid": "1.151.158",
+    "snips": [
+      {
+        "comment": "",
+        "snip": "react-native init withTemplate --template typescript && nodewithTemplate/setup.js\n"
+      },
+      {
+        "comment": "",
+        "snip": "yarn add --dev typescript react-native-typescript-transformer\n"
+      },
+      {
+        "comment": "",
+        "snip": "yarn tsc --init --pretty --jsx react\n"
+      },
+      {
+        "comment": "",
+        "snip": "touch rn-cli.config.js\n"
+      },
+      {
+        "comment": "",
+        "snip": "module.exports = {\n  getTransformModulePath() {\n    return require.resolve(\"react-native-typescript-transformer\");\n  },\n  getSourceExts() {\n    return [\"ts\", \"tsx\"];\n  }\n};"
+      },
+      {
+        "comment": "",
+        "snip": "{\n  \"compilerOptions\": {\n    /* Basic Options */\n    \"target\": \"es5\" /* Specify ECMAScript target version: 'ES3' (default), 'ES5', 'ES2015', 'ES2016', 'ES2017','ES2018' or 'ESNEXT'. */,\n    \"module\": \"commonjs\" /* Specify module code generation: 'none', 'commonjs', 'amd', 'system', 'umd', 'es2015', or 'ESNext'. */,\n    \"lib\": [\"es2015\"],                            /* Specify library files to be included in the compilation. */\n    // \"allowJs\": true,                       /* Allow javascript files to be compiled. */\n    // \"checkJs\": true,                       /* Report errors in .js files. */\n    \"jsx\": \"react\" /* Specify JSX code generation: 'preserve', 'react-native', or 'react'. */,\n    // \"declaration\": true,                   /* Generates corresponding '.d.ts' file. */\n    // \"declarationMap\": true,                /* Generates a sourcemap for each corresponding '.d.ts' file. */\n    // \"sourceMap\": true,                     /* Generates corresponding '.map' file. */\n    // \"outFile\": \"./\",                       /* Concatenate and emit output to single file. */\n    // \"outDir\": \"./\",                        /* Redirect output structure to the directory. */\n    // \"rootDir\": \"./\",                       /* Specify the root directory of input files. Use to control the output directory structure with --outDir. */\n    // \"composite\": true,                     /* Enable project compilation */\n    // \"removeComments\": true,                /* Do not emit comments to output. */\n    // \"noEmit\": true,                        /* Do not emit outputs. */\n    // \"importHelpers\": true,                 /* Import emit helpers from 'tslib'. */\n    // \"downlevelIteration\": true,            /* Provide full support for iterables in 'for-of', spread, and destructuring when targeting 'ES5' or 'ES3'. */\n    // \"isolatedModules\": true,               /* Transpile each file as a separate module (similar to 'ts.transpileModule'). */\n\n    /* Strict Type-Checking Options */\n    \"strict\": true /* Enable all strict type-checking options. */,\n    // \"noImplicitAny\": true,                 /* Raise error on expressions and declarations with an implied 'any' type. */\n    // \"strictNullChecks\": true,              /* Enable strict null checks. */\n    // \"strictFunctionTypes\": true,           /* Enable strict checking of function types. */\n    // \"strictPropertyInitialization\": true,  /* Enable strict checking of property initialization in classes. */\n    // \"noImplicitThis\": true,                /* Raise error on 'this' expressions with an implied 'any' type. */\n    // \"alwaysStrict\": true,                  /* Parse in strict mode and emit \"use strict\" for each source file. */\n\n    /* Additional Checks */\n    // \"noUnusedLocals\": true,                /* Report errors on unused locals. */\n    // \"noUnusedParameters\": true,            /* Report errors on unused parameters. */\n    // \"noImplicitReturns\": true,             /* Report error when not all code paths in function return a value. */\n    // \"noFallthroughCasesInSwitch\": true,    /* Report errors for fallthrough cases in switch statement. */\n\n    /* Module Resolution Options */\n    // \"moduleResolution\": \"node\",            /* Specify module resolution strategy: 'node' (Node.js) or 'classic' (TypeScript pre-1.6). */\n    // \"baseUrl\": \"./\",                       /* Base directory to resolve non-absolute module names. */\n    // \"paths\": {},                           /* A series of entries which re-map imports to lookup locations relative to the 'baseUrl'. */\n    // \"rootDirs\": [],                        /* List of root folders whose combined content represents the structure of the project at runtime. */\n    // \"typeRoots\": [],                       /* List of folders to include type definitions from. */\n//    \"types\": [\"jest\"]                         /* Type declaration files to be included in compilation. */,\n    // \"allowSyntheticDefaultImports\": true,  /* Allow default imports from modules with no default export. This does not affect code emit, just typechecking. */\n    \"esModuleInterop\": true /* Enables emit interoperability between CommonJS and ES Modules via\n    creation of namespace objects for all imports. Implies 'allowSyntheticDefaultImports'. */,\n    // \"preserveSymlinks\": true,              /* Do not resolve the real path of symlinks. */\n\n    /* Source Map Options */\n    // \"sourceRoot\": \"./\",                    /* Specify the location where debugger should locate TypeScript files instead of source locations. */\n    // \"mapRoot\": \"./\",                       /* Specify the location where debugger should locate map files instead of generated locations. */\n    // \"inlineSourceMap\": true,               /* Emit a single file with source maps instead of having a separate file. */\n    // \"inlineSources\": true,                 /* Emit the source alongside the sourcemaps within a single file; requires '--inlineSourceMap' or '--sourceMap' to be set. */\n\n    /* Experimental Options */\n    // \"experimentalDecorators\": true,        /* Enables experimental support for ES7 decorators. */\n    // \"emitDecoratorMetadata\": true,         /* Enables experimental support for emitting type metadata for decorators. */\n  },\n  \"exclude\": [\"index.js\", \"android\", \"ios\", \"build\", \"node_modules\", \".coverage\", \"native-assets\", \"jest\"]\n}"
+      },
+      {
+        "comment": "",
+        "snip": "yarn add ts-jest -D\n"
+      },
+      {
+        "comment": "",
+        "snip": "\"types\": [\"jest\"]"
+      },
+      {
+        "comment": "",
+        "snip": "yarn add -D @types/jest @types/react @types/react-native @types/enzyme\n"
+      },
+      {
+        "comment": "Update package.json",
+        "snip": "\"jest\": {\n  \"preset\": \"react-native\",\n  \"moduleFileExtensions\": [\n    \"ts\",\n    \"tsx\",\n    \"js\"\n  ],\n  \"transform\": {\n    \"^.+\\\\.(js)$\": \"<rootDir>/node_modules/babel-jest\",\n    \"\\\\.(ts|tsx)$\": \"<rootDir>/node_modules/ts-jest/preprocessor.js\"\n  },\n  \"testRegex\": \"(/__tests__/.*|\\\\.(test|spec))\\\\.(ts|tsx|js)$\",\n  \"testPathIgnorePatterns\": [\n    \"\\\\.snap$\",\n    \"<rootDir>/node_modules/\"\n  ],\n  \"cacheDirectory\": \".jest/cache\"\n}"
+      },
+      {
+        "comment": "",
+        "snip": "yarn add prettier tslint tslint-config-prettier tslint-react lint-staged tslint-config-airbnb husky -D\n"
+      },
+      {
+        "comment": "",
+        "snip": "\"lint-staged\": {\n    \"{src,test}/**/*.ts*\": [\n      \"prettier --write\",\n      \"git add\"\n    ]\n  },"
+      },
+      {
+        "comment": "add to scripts",
+        "snip": "\"precommit\": \"lint-staged\","
+      },
+      {
+        "comment": "",
+        "snip": "touch tslint.json\n"
+      },
+      {
+        "comment": "",
+        "snip": "{\n  \"extends\": [\"tslint:recommended\", \"tslint-config-prettier\", \"tslint-config-airbnb\", \"tslint-react\"],\n  \"defaultSeverity\": \"error\",\n  \"jsRules\": {},\n  \"rules\": {\n    \"quotemark\": [true, \"single\", \"jsx-double\"],\n    \"ordered-imports\": false,\n    \"object-literal-sort-keys\": false,\n    \"arrow-parens\": false,\n    \"no-console\": [false],\n    \"no-unused-expression\": true,\n    \"comment-format\": false,\n    \"semicolon\": [true, \"never\", \"ignore-interfaces\"],\n    \"trailing-comma\": [\n      true,\n      {\n        \"multiline\": {\n          \"objects\": \"always\",\n          \"arrays\": \"always\",\n          \"functions\": \"ignore\",\n          \"typeLiterals\": \"ignore\"\n        }\n      }\n    ],\n    \"no-shadowed-variable\": false,\n    \"align\": false,\n    \"ban\": false,\n    \"class-name\": true,\n    \"curly\": true,\n    \"eofline\": true,\n    \"forin\": true,\n    \"indent\": [true, \"spaces\", 2],\n    \"interface-name\": [true, \"never-prefix\"],\n    \"jsdoc-format\": true,\n    \"jsx-no-lambda\": false,\n    \"jsx-no-multiline-js\": false,\n    \"react/jsx-boolean-value\": true,\n    \"label-position\": true,\n    \"max-line-length\": [true, 120],\n    \"member-ordering\": false,\n    \"no-any\": false,\n    \"no-arg\": true,\n    \"no-switch-case-fall-through\": true,\n    \"switch-default\": true,\n    \"triple-equals\": [true, \"allow-null-check\"],\n    \"typedef\": [true, \"parameter\", \"property-declaration\"],\n    \"typedef-whitespace\": [\n      true,\n      {\n        \"call-signature\": \"nospace\",\n        \"index-signature\": \"nospace\",\n        \"parameter\": \"nospace\",\n        \"property-declaration\": \"nospace\",\n        \"variable-declaration\": \"nospace\"\n      }\n    ],\n    \"variable-name\": [true, \"ban-keywords\", \"check-format\", \"allow-leading-underscore\", \"allow-pascal-case\"],\n    \"whitespace\": [\n      true,\n      \"check-branch\",\n      \"check-decl\",\n      \"check-module\",\n      \"check-operator\",\n      \"check-separator\",\n      \"check-type\",\n      \"check-typecast\"\n    ]\n  },\n  \"rulesDirectory\": []\n}"
+      }
+    ]
+  },
+  {
+    "nodeid": "10.159",
+    "snips": [
+      {
+        "comment": "",
+        "snip": "Seagate 4000GB - Pics-F Backup"
+      },
+      {
+        "comment": "",
+        "snip": "Seagate 3000GB - old drive Data D"
+      },
+      {
+        "comment": "",
+        "snip": "Toshiba 4000GB - Pics-G Backup includes Working"
+      }
+    ]
+  },
+  {
+    "nodeid": "1.87.160",
+    "snips": [
+      {
+        "comment": "",
+        "snip": "Setup babel & webpack"
+      },
+      {
+        "comment": "",
+        "snip": "mkdir \" && cd $_"
+      },
+      {
+        "comment": "",
+        "snip": "copy dist, src, wp and babel.config from babel-webpack\n"
+      },
+      {
+        "comment": "",
+        "snip": "yarn add react react-dom\n"
+      },
+      {
+        "comment": "",
+        "snip": "yarn add -D @babel/core @babel/plugin-proposal-class-properties @babel/preset-env @babel/preset-react babel-loader\n"
+      },
+      {
+        "comment": "",
+        "snip": "yarn add -D webpack webpack-cli webpack-dev-server\n"
+      },
+      {
+        "comment": "",
+        "snip": "yarn add -D copy-webpack-plugin css-loader html-webpack-plugin mini-css-extract-plugin\n"
+      },
+      {
+        "comment": "",
+        "snip": "yarn add -D node-sass postcss-loader sass-loader style-loader\n"
+      },
+      {
+        "comment": "",
+        "snip": "Add to package.json\n"
+      },
+      {
+        "comment": "",
+        "snip": "  \"name\": \"redux-1\",\n  \"version\": \"1.0.0\",\n  \"main\": \"src/app.js\",\n  \"author\": \"J Mark Stevens\",\n  \"license\": \"MIT\",\n  \"scripts\": {\n    \"start\": \"webpack-dev-server --config wp/wp.config.js --mode development\",\n    \"build\": \"webpack --config wp/wp.config.js --mode production\"\n  },\n"
+      },
+      {
+        "comment": "",
+        "snip": "  \"babel\": {\n    \"presets\": [\n      \"@babel/preset-env\",\n      \"@babel/preset-react\"\n    ]\n  }\n"
+      },
+      {
+        "comment": "",
+        "snip": "Add eslint"
+      },
+      {
+        "comment": "",
+        "snip": "yarn add -D eslint babel-eslint eslint-config-airbnb eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react\n"
+      },
+      {
+        "comment": "",
+        "snip": "yarn add -D prettier eslint-config-prettier eslint-plugin-prettier\n"
+      },
+      {
+        "comment": "",
+        "snip": "copy .eslintrc & .prettierrc from eslint"
+      },
+      {
+        "comment": "",
+        "snip": "Add redux"
+      },
+      {
+        "comment": "",
+        "snip": "yarn add react-redux redux redux-thunk\n"
+      },
+      {
+        "comment": "",
+        "snip": "yarn add -D redux-logger\n"
+      },
+      {
+        "comment": "",
+        "snip": "For palm-info"
+      },
+      {
+        "comment": "",
+        "snip": "yarn add lodash react-hammerjs react-mixin react-modal screenfull\n"
+      },
+      {
+        "comment": "",
+        "snip": "yarn add -D css-loader html-webpack-plugin mini-css-extract-plugin node-sass postcss-loader sass-loader style-loader\n"
+      },
+      {
+        "comment": "",
+        "snip": "yarn add @fortawesome/free-solid-svg-icons @fortawesome/react-fontawesome\n"
+      }
+    ]
+  },
+  {
+    "nodeid": "1.151.161",
+    "snips": [
+      {
+        "comment": "",
+        "snip": "yarn add -D eslint eslint-config-airbnb eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react\n"
+      },
+      {
+        "comment": "",
+        "snip": "yarn add -D eslint babel-eslint\n"
+      },
+      {
+        "comment": "",
+        "snip": "yarn add -D prettier eslint-config-prettier eslint-plugin-prettier\n"
+      },
+      {
+        "comment": "",
+        "snip": "yarn add -D husky lint-staged pretty-quick\n"
+      },
+      {
+        "comment": "",
+        "snip": "yarn add -D eslint-plugin-flowtype flow-typed\n"
+      },
+      {
+        "comment": "",
+        "snip": "yarn add -D @babel/preset-flow\n"
+      },
+      {
+        "comment": "",
+        "snip": "yarn add react-navigation react-native-gesture-handler\n"
+      },
+      {
+        "comment": "",
+        "snip": "react-native link react-native-gesture-handler\n"
+      }
+    ]
+  },
+  {
+    "nodeid": "163",
+    "snips": []
+  },
+  {
+    "nodeid": "163.164",
+    "snips": [
+      {
+        "comment": "config path",
+        "snip": "/usr/local/etc/nginx"
+      },
+      {
+        "comment": "",
+        "snip": "sudo nginx"
+      },
+      {
+        "comment": "",
+        "snip": "sudo nginx -s stop"
+      },
+      {
+        "comment": "",
+        "snip": "ln -s /usr/local/etc/nginx/sites-available/multi.calitek.com /etc/nginx/sites-enabled/multi.calitek.com"
       }
     ]
   }

@@ -11,7 +11,7 @@ class AppComponent extends React.Component {
   render() {
     return (
       <div className="app-container" ref={this.appRef}>
-        Hello World
+        Hello Electron World
       </div>
     )
   }

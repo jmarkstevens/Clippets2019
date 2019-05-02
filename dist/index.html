@@ -3,16 +3,14 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <base href="/" />
+    <base href="./dist" />
     <meta name="theme-color" content="#ffffff" />
     <title>Clippets</title>
-  <link href="/app.css" rel="stylesheet"></head>
+  <link href="app.css" rel="stylesheet"></head>
   <body>
     <div id="react-app"></div>
-    <noscript>Your browser does not support JavaScript!</noscript>
     <script>
-      const ipc = require('electron').ipcRenderer;
-      const { clipboard } = require('electron');
+      const { clipboard, ipcRenderer } = require('electron');
     </script>
-  <script type="text/javascript" src="/app.js"></script></body>
+  <script type="text/javascript" src="app.js"></script></body>
 </html>

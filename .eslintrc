@@ -17,7 +17,7 @@
   "globals": {
     "clipboard": true,
     "document": true,
-    "ipc": true
+    "ipcRenderer": true
   },
   "parser": "babel-eslint"
 }

@@ -3,6 +3,13 @@
     "children": [
       {
         "children": [],
+        "nodeid": "1.153",
+        "selected": false,
+        "title": "Apollo Client",
+        "type": "dev"
+      },
+      {
+        "children": [],
         "nodeid": "1.4",
         "selected": false,
         "title": "Css",
@@ -37,10 +44,49 @@
         "type": "dev"
       },
       {
-        "children": [],
+        "children": [
+          {
+            "children": [],
+            "nodeid": "1.87.160",
+            "selected": true,
+            "title": "Setup",
+            "type": "dev"
+          }
+        ],
+        "closed": false,
         "nodeid": "1.87",
         "selected": false,
         "title": "React",
+        "type": "dev"
+      },
+      {
+        "children": [
+          {
+            "children": [],
+            "nodeid": "1.151.161",
+            "selected": false,
+            "title": "Setup with flow",
+            "type": "dev"
+          },
+          {
+            "children": [],
+            "nodeid": "1.151.158",
+            "selected": false,
+            "title": "Typescript",
+            "type": "dev"
+          }
+        ],
+        "closed": false,
+        "nodeid": "1.151",
+        "selected": false,
+        "title": "React Native",
+        "type": "dev"
+      },
+      {
+        "children": [],
+        "nodeid": "1.155",
+        "selected": false,
+        "title": "Redis",
         "type": "dev"
       },
       {
@@ -48,6 +94,13 @@
         "nodeid": "1.17",
         "selected": false,
         "title": "npm",
+        "type": "dev"
+      },
+      {
+        "children": [],
+        "nodeid": "1.157",
+        "selected": false,
+        "title": "vs code",
         "type": "dev"
       },
       {
@@ -72,7 +125,7 @@
         "type": "dev"
       }
     ],
-    "closed": true,
+    "closed": false,
     "nodeid": "1",
     "selected": false,
     "title": "Dev",
@@ -81,14 +134,60 @@
   {
     "children": [
       {
+        "children": [],
+        "nodeid": "149.156",
+        "selected": false,
+        "title": "Jane",
+        "type": "dev"
+      },
+      {
+        "children": [],
+        "nodeid": "149.154",
+        "selected": false,
+        "title": "KW project",
+        "type": "dev"
+      },
+      {
+        "children": [],
+        "nodeid": "149.150",
+        "selected": false,
+        "title": "Mapping",
+        "type": "dev"
+      },
+      {
+        "children": [],
+        "nodeid": "149.152",
+        "selected": false,
+        "title": "Prototype",
+        "type": "dev"
+      }
+    ],
+    "closed": false,
+    "nodeid": "149",
+    "selected": false,
+    "title": "Mokriya",
+    "type": "dev"
+  },
+  {
+    "children": [],
+    "nodeid": "147",
+    "selected": false,
+    "title": "Surge",
+    "type": "dev"
+  },
+  {
+    "children": [
+      {
         "children": null,
         "nodeid": "162.165",
+        "selected": false,
         "title": "React Native",
         "type": "dev"
       },
       {
         "children": null,
         "nodeid": "162.163",
+        "selected": false,
         "title": "Skumobile",
         "type": "dev"
       },
@@ -101,6 +200,7 @@
       {
         "children": null,
         "nodeid": "162.164",
+        "selected": false,
         "title": "git",
         "type": "dev"
       },
@@ -143,17 +243,21 @@
       {
         "children": [],
         "nodeid": "162.167",
+        "selected": false,
         "title": "Skc standups",
         "type": "dev"
       },
       {
         "children": [],
         "nodeid": "162.168",
+        "selected": false,
         "title": "Test scripts",
         "type": "dev"
       }
     ],
+    "closed": false,
     "nodeid": "162",
+    "selected": false,
     "title": "Skuchain",
     "type": "dev"
   },
@@ -197,7 +301,7 @@
             "type": "dev"
           }
         ],
-        "closed": false,
+        "closed": true,
         "nodeid": "22.138",
         "selected": false,
         "title": "Angular Patterns",
@@ -227,7 +331,7 @@
             "type": "dev"
           }
         ],
-        "closed": false,
+        "closed": true,
         "nodeid": "22.142",
         "selected": false,
         "title": "iTerm",
@@ -243,7 +347,7 @@
             "type": "dev"
           }
         ],
-        "closed": false,
+        "closed": true,
         "nodeid": "22.79",
         "selected": false,
         "title": "NodejsPatterns",
@@ -303,7 +407,7 @@
             "type": "dev"
           }
         ],
-        "closed": false,
+        "closed": true,
         "nodeid": "22.32",
         "selected": false,
         "title": "React Patterns",
@@ -319,7 +423,7 @@
             "type": "dev"
           }
         ],
-        "closed": false,
+        "closed": true,
         "nodeid": "22.91",
         "selected": false,
         "title": "React Native Patterns",
@@ -356,7 +460,7 @@
         "type": "dev"
       }
     ],
-    "closed": true,
+    "closed": false,
     "nodeid": "22",
     "selected": false,
     "title": "Dev Projects",
@@ -396,7 +500,24 @@
     "children": [
       {
         "children": [],
+        "nodeid": "163.164",
+        "selected": false,
+        "title": "nginx",
+        "type": "dev"
+      }
+    ],
+    "closed": false,
+    "nodeid": "163",
+    "selected": false,
+    "title": "Mini server",
+    "type": "dev"
+  },
+  {
+    "children": [
+      {
+        "children": [],
         "nodeid": "12.149",
+        "selected": false,
         "title": "AWS jms",
         "type": "dev"
       },
@@ -436,7 +557,7 @@
         "type": "dev"
       }
     ],
-    "closed": true,
+    "closed": false,
     "nodeid": "12",
     "selected": false,
     "title": "Deployment",
@@ -446,10 +567,17 @@
     "children": [
       {
         "children": [],
+        "nodeid": "53.148",
+        "selected": false,
+        "title": "InteractiveCare",
+        "type": "dev"
+      },
+      {
+        "children": [],
         "nodeid": "53.150",
+        "selected": false,
         "title": "Skuchain",
-        "type": "dev",
-        "selected": false
+        "type": "dev"
       },
       {
         "children": [],
@@ -462,6 +590,7 @@
           {
             "children": null,
             "nodeid": "53.151.152",
+            "selected": false,
             "title": "week ending 09/24",
             "type": "dev"
           },
@@ -514,15 +643,16 @@
             "type": "dev"
           }
         ],
+        "closed": true,
         "nodeid": "53.151",
+        "selected": false,
         "title": "LomaSoft",
-        "type": "dev",
-        "closed": true
+        "type": "dev"
       },
       {
         "children": [],
         "nodeid": "53.99",
-        "selected": true,
+        "selected": false,
         "title": "Highlights",
         "type": "dev"
       },
@@ -585,7 +715,7 @@
             "type": "dev"
           }
         ],
-        "closed": true,
+        "closed": false,
         "nodeid": "53.59",
         "selected": false,
         "title": "Online projects",
@@ -764,9 +894,9 @@
       }
     ],
     "nodeid": "145",
+    "selected": false,
     "title": "Dthera",
-    "type": "dev",
-    "closed": true
+    "type": "dev"
   },
   {
     "children": [
@@ -834,7 +964,7 @@
         "type": "dev"
       }
     ],
-    "closed": false,
+    "closed": true,
     "nodeid": "76",
     "selected": false,
     "title": "Ubuntu",
@@ -857,7 +987,7 @@
         "type": "sys"
       }
     ],
-    "closed": true,
+    "closed": false,
     "nodeid": "19",
     "selected": false,
     "title": "Mac",
@@ -865,6 +995,13 @@
   },
   {
     "children": [
+      {
+        "children": [],
+        "nodeid": "10.159",
+        "selected": false,
+        "title": "Drives from Matadham server",
+        "type": "dev"
+      },
       {
         "children": [],
         "nodeid": "10.100",

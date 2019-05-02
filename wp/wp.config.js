@@ -7,10 +7,6 @@ const ROOT_PATH = path.resolve(__dirname)
 const DIST_PATH = path.resolve(ROOT_PATH, '../dist')
 
 module.exports = {
-  devServer: {
-    contentBase: './dist',
-    host: '0.0.0.0'
-  },
   entry: {
     app: './src/app.jsx'
   },
@@ -29,7 +25,6 @@ module.exports = {
   },
   output: {
     path: DIST_PATH,
-    publicPath: '/',
     filename: '[name].js'
   },
   plugins: [

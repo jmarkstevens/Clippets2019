@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "start": "electron .",
-    "ww": "webpack --config wp/wp.config.js --progress --profile --colors --env.noMinimize --watch",
+    "ww": "webpack --config wp/wp.config.js --progress --profile --colors --mode development --watch",
     "nw": "webpack --config wp/wp.config.js --progress --profile --colors --env.noMinimize",
     "build": "webpack --config wp/wp.config.js --mode production"
   },
