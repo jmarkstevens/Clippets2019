@@ -1,3 +1,5 @@
+/* eslint-disable no-param-reassign */
+/* eslint-disable no-use-before-define */
 import lodash from 'lodash'
 import traverse from 'traverse'
 
@@ -10,7 +12,8 @@ function getSetNextNodeID() {
 
 function _gotTreeView(treedata) {
   let _currentTreeNode = _getSelected(treedata)
-  if (_currentTreeNode == null) [_currentTreeNode] = treedata
+  // eslint-disable-next-line prefer-destructuring
+  if (_currentTreeNode == null) _currentTreeNode = treedata[0]
   return { treeData: treedata, currentTreeNode: _currentTreeNode }
 }
 

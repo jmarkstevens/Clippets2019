@@ -2,7 +2,7 @@ import { createStore, applyMiddleware } from 'redux'
 import logger from 'redux-logger'
 import thunkMiddleware from 'redux-thunk'
 
-import { startIpc, ipcMiddleware } from './actions/api.ipc'
+import { startIpc, ipcMiddleware } from './actions'
 import CombinedState from './reducers'
 
 const middleware = [ipcMiddleware, thunkMiddleware]

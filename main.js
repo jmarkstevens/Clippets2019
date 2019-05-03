@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 const { app, BrowserWindow, ipcMain } = require('electron')
 const fs = require('fs')
 const config = require('./config.json')

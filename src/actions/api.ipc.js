@@ -1,4 +1,4 @@
-import * as Actions from './api.Actions'
+import * as Actions from './api.actions'
 
 export function ipcMiddleware(store) {
   return next => action => {
