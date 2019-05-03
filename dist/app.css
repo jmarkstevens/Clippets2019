@@ -475,6 +475,10 @@ noscript {
   padding-left: 0;
   width: 30%; }
 
+.tree-menu {
+  display: flex;
+  justify-content: space-between; }
+
 body {
   font-size: 16px;
   overflow: hidden; }
