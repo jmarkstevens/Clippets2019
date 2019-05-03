@@ -1,20 +1,19 @@
 import React from 'react'
 
-// import HelpPage from './help/help.page'
+import SnipsContainer from '../../containers/snips'
+import TreeContainer from '../../containers/tree'
 
-class AppComponent extends React.Component {
-  constructor(props) {
-    super(props)
-    this.appRef = React.createRef()
-  }
-
-  render() {
-    return (
-      <div className="app-container" ref={this.appRef}>
-        Hello Electron World
+const AppComponent = () => {
+  return (
+    <div className="app-container">
+      <div className="tree-container">
+        <TreeContainer />
       </div>
-    )
-  }
+      <div className="snips-container">
+        <SnipsContainer />
+      </div>
+    </div>
+  )
 }
 
 export default AppComponent

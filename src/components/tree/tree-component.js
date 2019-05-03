@@ -1,6 +1,7 @@
 import React from 'react'
 
-const TreeComponent = () => {
+const TreeComponent = props => {
+  console.log('TreeComponet props', props)
   return <div>TreeComponent</div>
 }
 

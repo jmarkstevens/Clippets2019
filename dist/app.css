@@ -461,6 +461,20 @@ noscript {
   margin-bottom: 1em;
   margin-top: 1em; }
 
+.snip-container {
+  border: solid 0px darkslategray;
+  height: calc(100% - 10px);
+  overflow: hidden;
+  padding: 0;
+  width: calc(70% - 35px); }
+
+.tree-container {
+  border: solid 0px darkslategray;
+  height: calc(100% - 10px);
+  overflow: auto;
+  padding-left: 0;
+  width: 30%; }
+
 body {
   font-size: 16px;
   overflow: hidden; }
@@ -469,21 +483,13 @@ body {
   outline: none; }
 
 .app-container {
-  background-color: #1a3212;
-  display: block;
+  background-color: #242;
+  color: #eae3ea;
+  display: flex;
+  flex-direction: row;
   height: 100vh;
   margin: 0;
   overflow: hidden;
-  padding: 0 5px; }
-
-.palm-content {
-  display: flex;
-  flex-direction: row; }
-
-.palm-content-info-full {
-  height: 100%; }
-
-.palm-page {
-  display: block;
-  height: 100%; }
+  padding: 0 5px;
+  width: 100vw; }
 
