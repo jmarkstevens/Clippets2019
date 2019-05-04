@@ -1,7 +1,7 @@
 import React from 'react'
 
 import TreeList from './tree-list'
-import TreeMenu from './tree-menu'
+import TreeButtons from './tree-buttons'
 import TreeEdit from './tree-edit'
 import TreeNew from './tree-new'
 
@@ -16,7 +16,7 @@ const TreeComponent = ({
 }) => {
   return (
     <div id="TreeCtrlSty">
-      <TreeMenu treeActions={treeActions} />
+      <TreeButtons treeActions={treeActions} />
       <TreeList
         selectTreeNode={selectTreeNode}
         setTreeNodeClosed={setTreeNodeClosed}
