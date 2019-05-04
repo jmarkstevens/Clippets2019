@@ -1,7 +1,7 @@
 import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux'
 
-import SnipsComponent from '../../components/snips'
+import SnipComponent from '../../components/snip'
 import {
   apiGetClipboard,
   apiSetClipboard,
@@ -37,4 +37,4 @@ function mapDispatchToProps(dispatch) {
 export default connect(
   mapStateToProps,
   mapDispatchToProps
-)(SnipsComponent)
+)(SnipComponent)

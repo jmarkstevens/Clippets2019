@@ -1,6 +1,6 @@
 import React from 'react'
 
-import SnipsContainer from '../../containers/snips'
+import SnipContainer from '../../containers/snip'
 import TreeContainer from '../../containers/tree'
 
 const AppComponent = () => {
@@ -10,7 +10,7 @@ const AppComponent = () => {
         <TreeContainer />
       </div>
       <div className="snips-container">
-        <SnipsContainer />
+        <SnipContainer />
       </div>
     </div>
   )

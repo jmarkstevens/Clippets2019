@@ -2,7 +2,7 @@ export {
   getCurrentSnip,
   getCurrentSnipIndex,
   getCurrentSnips
-} from './snips-selectors'
+} from './snip-selectors'
 export {
   getCurrentTreeNode,
   getShowTreeEdit,

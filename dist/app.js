@@ -2775,7 +2775,7 @@ eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _containers_snips__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../containers/snips */ \"./src/containers/snips/index.js\");\n/* harmony import */ var _containers_tree__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../containers/tree */ \"./src/containers/tree/index.js\");\n\n\n\n\nvar AppComponent = function AppComponent() {\n  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"app-container\"\n  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"tree-container\"\n  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_containers_tree__WEBPACK_IMPORTED_MODULE_2__[\"default\"], null)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"snips-container\"\n  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_containers_snips__WEBPACK_IMPORTED_MODULE_1__[\"default\"], null)));\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (AppComponent);\n\n//# sourceURL=webpack:///./src/components/app/app.component.jsx?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _containers_snip__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../containers/snip */ \"./src/containers/snip/index.js\");\n/* harmony import */ var _containers_tree__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../containers/tree */ \"./src/containers/tree/index.js\");\n\n\n\n\nvar AppComponent = function AppComponent() {\n  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"app-container\"\n  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"tree-container\"\n  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_containers_tree__WEBPACK_IMPORTED_MODULE_2__[\"default\"], null)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"snips-container\"\n  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_containers_snip__WEBPACK_IMPORTED_MODULE_1__[\"default\"], null)));\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (AppComponent);\n\n//# sourceURL=webpack:///./src/components/app/app.component.jsx?");
 
 /***/ }),
 
@@ -2863,27 +2863,27 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var clas
 
 /***/ }),
 
-/***/ "./src/components/snips/index.js":
-/*!***************************************!*\
-  !*** ./src/components/snips/index.js ***!
-  \***************************************/
+/***/ "./src/components/snip/index.js":
+/*!**************************************!*\
+  !*** ./src/components/snip/index.js ***!
+  \**************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _snips_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./snips-component */ \"./src/components/snips/snips-component.js\");\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return _snips_component__WEBPACK_IMPORTED_MODULE_0__[\"default\"]; });\n\n\n\n//# sourceURL=webpack:///./src/components/snips/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _snip_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./snip-component */ \"./src/components/snip/snip-component.js\");\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return _snip_component__WEBPACK_IMPORTED_MODULE_0__[\"default\"]; });\n\n\n\n//# sourceURL=webpack:///./src/components/snip/index.js?");
 
 /***/ }),
 
-/***/ "./src/components/snips/snips-component.js":
-/*!*************************************************!*\
-  !*** ./src/components/snips/snips-component.js ***!
-  \*************************************************/
+/***/ "./src/components/snip/snip-component.js":
+/*!***********************************************!*\
+  !*** ./src/components/snip/snip-component.js ***!
+  \***********************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n\n\nvar SnipsComponent = function SnipsComponent(props) {\n  console.log('SnipsComponent props', props);\n  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", null, \"SnipsComponent\");\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (SnipsComponent);\n\n//# sourceURL=webpack:///./src/components/snips/snips-component.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n\n\nvar SnipComponent = function SnipComponent(props) {\n  console.log('SnipComponent props', props);\n  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", null, \"SnipComponent\");\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (SnipComponent);\n\n//# sourceURL=webpack:///./src/components/snip/snip-component.js?");
 
 /***/ }),
 
@@ -3031,27 +3031,27 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var reac
 
 /***/ }),
 
-/***/ "./src/containers/snips/index.js":
-/*!***************************************!*\
-  !*** ./src/containers/snips/index.js ***!
-  \***************************************/
+/***/ "./src/containers/snip/index.js":
+/*!**************************************!*\
+  !*** ./src/containers/snip/index.js ***!
+  \**************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _snips_container__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./snips-container */ \"./src/containers/snips/snips-container.js\");\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return _snips_container__WEBPACK_IMPORTED_MODULE_0__[\"default\"]; });\n\n\n\n//# sourceURL=webpack:///./src/containers/snips/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _snip_container__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./snip-container */ \"./src/containers/snip/snip-container.js\");\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return _snip_container__WEBPACK_IMPORTED_MODULE_0__[\"default\"]; });\n\n\n\n//# sourceURL=webpack:///./src/containers/snip/index.js?");
 
 /***/ }),
 
-/***/ "./src/containers/snips/snips-container.js":
-/*!*************************************************!*\
-  !*** ./src/containers/snips/snips-container.js ***!
-  \*************************************************/
+/***/ "./src/containers/snip/snip-container.js":
+/*!***********************************************!*\
+  !*** ./src/containers/snip/snip-container.js ***!
+  \***********************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react-redux */ \"./node_modules/react-redux/es/index.js\");\n/* harmony import */ var redux__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! redux */ \"./node_modules/redux/es/redux.js\");\n/* harmony import */ var _components_snips__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/snips */ \"./src/components/snips/index.js\");\n/* harmony import */ var _actions__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../actions */ \"./src/actions/index.js\");\n/* harmony import */ var _selectors__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../selectors */ \"./src/selectors/index.js\");\n\n\n\n\n\n\nvar mapStateToProps = function mapStateToProps(state) {\n  return {\n    currentSnip: Object(_selectors__WEBPACK_IMPORTED_MODULE_4__[\"getCurrentSnip\"])(state),\n    currentSnipIndex: Object(_selectors__WEBPACK_IMPORTED_MODULE_4__[\"getCurrentSnipIndex\"])(state),\n    currentSnips: Object(_selectors__WEBPACK_IMPORTED_MODULE_4__[\"getCurrentSnips\"])(state)\n  };\n};\n\nfunction mapDispatchToProps(dispatch) {\n  return Object(redux__WEBPACK_IMPORTED_MODULE_1__[\"bindActionCreators\"])({\n    apiGetClipboard: _actions__WEBPACK_IMPORTED_MODULE_3__[\"apiGetClipboard\"],\n    apiSetClipboard: _actions__WEBPACK_IMPORTED_MODULE_3__[\"apiSetClipboard\"],\n    saveSnipEdit: _actions__WEBPACK_IMPORTED_MODULE_3__[\"saveSnipEdit\"],\n    selectSnipItem: _actions__WEBPACK_IMPORTED_MODULE_3__[\"selectSnipItem\"],\n    snipActions: _actions__WEBPACK_IMPORTED_MODULE_3__[\"snipActions\"]\n  }, dispatch);\n}\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_0__[\"connect\"])(mapStateToProps, mapDispatchToProps)(_components_snips__WEBPACK_IMPORTED_MODULE_2__[\"default\"]));\n\n//# sourceURL=webpack:///./src/containers/snips/snips-container.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react-redux */ \"./node_modules/react-redux/es/index.js\");\n/* harmony import */ var redux__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! redux */ \"./node_modules/redux/es/redux.js\");\n/* harmony import */ var _components_snip__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/snip */ \"./src/components/snip/index.js\");\n/* harmony import */ var _actions__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../actions */ \"./src/actions/index.js\");\n/* harmony import */ var _selectors__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../selectors */ \"./src/selectors/index.js\");\n\n\n\n\n\n\nvar mapStateToProps = function mapStateToProps(state) {\n  return {\n    currentSnip: Object(_selectors__WEBPACK_IMPORTED_MODULE_4__[\"getCurrentSnip\"])(state),\n    currentSnipIndex: Object(_selectors__WEBPACK_IMPORTED_MODULE_4__[\"getCurrentSnipIndex\"])(state),\n    currentSnips: Object(_selectors__WEBPACK_IMPORTED_MODULE_4__[\"getCurrentSnips\"])(state)\n  };\n};\n\nfunction mapDispatchToProps(dispatch) {\n  return Object(redux__WEBPACK_IMPORTED_MODULE_1__[\"bindActionCreators\"])({\n    apiGetClipboard: _actions__WEBPACK_IMPORTED_MODULE_3__[\"apiGetClipboard\"],\n    apiSetClipboard: _actions__WEBPACK_IMPORTED_MODULE_3__[\"apiSetClipboard\"],\n    saveSnipEdit: _actions__WEBPACK_IMPORTED_MODULE_3__[\"saveSnipEdit\"],\n    selectSnipItem: _actions__WEBPACK_IMPORTED_MODULE_3__[\"selectSnipItem\"],\n    snipActions: _actions__WEBPACK_IMPORTED_MODULE_3__[\"snipActions\"]\n  }, dispatch);\n}\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_0__[\"connect\"])(mapStateToProps, mapDispatchToProps)(_components_snip__WEBPACK_IMPORTED_MODULE_2__[\"default\"]));\n\n//# sourceURL=webpack:///./src/containers/snip/snip-container.js?");
 
 /***/ }),
 
@@ -3123,19 +3123,19 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _snips_selectors__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./snips-selectors */ \"./src/selectors/snips-selectors.js\");\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"getCurrentSnip\", function() { return _snips_selectors__WEBPACK_IMPORTED_MODULE_0__[\"getCurrentSnip\"]; });\n\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"getCurrentSnipIndex\", function() { return _snips_selectors__WEBPACK_IMPORTED_MODULE_0__[\"getCurrentSnipIndex\"]; });\n\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"getCurrentSnips\", function() { return _snips_selectors__WEBPACK_IMPORTED_MODULE_0__[\"getCurrentSnips\"]; });\n\n/* harmony import */ var _tree_selectors__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./tree-selectors */ \"./src/selectors/tree-selectors.js\");\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"getCurrentTreeNode\", function() { return _tree_selectors__WEBPACK_IMPORTED_MODULE_1__[\"getCurrentTreeNode\"]; });\n\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"getShowTreeEdit\", function() { return _tree_selectors__WEBPACK_IMPORTED_MODULE_1__[\"getShowTreeEdit\"]; });\n\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"getShowTreeNew\", function() { return _tree_selectors__WEBPACK_IMPORTED_MODULE_1__[\"getShowTreeNew\"]; });\n\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"getTreeData\", function() { return _tree_selectors__WEBPACK_IMPORTED_MODULE_1__[\"getTreeData\"]; });\n\n\n\n\n//# sourceURL=webpack:///./src/selectors/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _snip_selectors__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./snip-selectors */ \"./src/selectors/snip-selectors.js\");\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"getCurrentSnip\", function() { return _snip_selectors__WEBPACK_IMPORTED_MODULE_0__[\"getCurrentSnip\"]; });\n\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"getCurrentSnipIndex\", function() { return _snip_selectors__WEBPACK_IMPORTED_MODULE_0__[\"getCurrentSnipIndex\"]; });\n\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"getCurrentSnips\", function() { return _snip_selectors__WEBPACK_IMPORTED_MODULE_0__[\"getCurrentSnips\"]; });\n\n/* harmony import */ var _tree_selectors__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./tree-selectors */ \"./src/selectors/tree-selectors.js\");\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"getCurrentTreeNode\", function() { return _tree_selectors__WEBPACK_IMPORTED_MODULE_1__[\"getCurrentTreeNode\"]; });\n\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"getShowTreeEdit\", function() { return _tree_selectors__WEBPACK_IMPORTED_MODULE_1__[\"getShowTreeEdit\"]; });\n\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"getShowTreeNew\", function() { return _tree_selectors__WEBPACK_IMPORTED_MODULE_1__[\"getShowTreeNew\"]; });\n\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"getTreeData\", function() { return _tree_selectors__WEBPACK_IMPORTED_MODULE_1__[\"getTreeData\"]; });\n\n\n\n\n//# sourceURL=webpack:///./src/selectors/index.js?");
 
 /***/ }),
 
-/***/ "./src/selectors/snips-selectors.js":
-/*!******************************************!*\
-  !*** ./src/selectors/snips-selectors.js ***!
-  \******************************************/
+/***/ "./src/selectors/snip-selectors.js":
+/*!*****************************************!*\
+  !*** ./src/selectors/snip-selectors.js ***!
+  \*****************************************/
 /*! exports provided: getCurrentSnip, getCurrentSnipIndex, getCurrentSnips */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"getCurrentSnip\", function() { return getCurrentSnip; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"getCurrentSnipIndex\", function() { return getCurrentSnipIndex; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"getCurrentSnips\", function() { return getCurrentSnips; });\nvar getCurrentSnip = function getCurrentSnip(state) {\n  return state.SnipState.currentSnip;\n};\nvar getCurrentSnipIndex = function getCurrentSnipIndex(state) {\n  return state.SnipState.currentSnipIndex;\n};\nvar getCurrentSnips = function getCurrentSnips(state) {\n  return state.SnipState.currentSnips;\n};\n\n//# sourceURL=webpack:///./src/selectors/snips-selectors.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"getCurrentSnip\", function() { return getCurrentSnip; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"getCurrentSnipIndex\", function() { return getCurrentSnipIndex; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"getCurrentSnips\", function() { return getCurrentSnips; });\nvar getCurrentSnip = function getCurrentSnip(state) {\n  return state.SnipState.currentSnip;\n};\nvar getCurrentSnipIndex = function getCurrentSnipIndex(state) {\n  return state.SnipState.currentSnipIndex;\n};\nvar getCurrentSnips = function getCurrentSnips(state) {\n  return state.SnipState.currentSnips;\n};\n\n//# sourceURL=webpack:///./src/selectors/snip-selectors.js?");
 
 /***/ }),
 
