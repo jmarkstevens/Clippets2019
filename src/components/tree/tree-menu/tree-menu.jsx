@@ -1,54 +1,40 @@
 import React from 'react'
-import JButton from '../../common/Button'
+import Button from '@material-ui/core/Button'
+import {
+  FaArrowDown,
+  FaArrowUp,
+  FaPencilAlt,
+  FaRegFileAlt,
+  FaTrashAlt
+} from 'react-icons/fa'
 
-const TreeMenuSty = {
-  fontSize: '.9em',
-  height: '40px',
-  margin: '10px auto',
-  textAlign: 'center',
-  verticalAlign: 'middle',
-  width: '250px'
-}
-
-const newBtn = {
-  buttonid: 'new',
-  icon: 'fa fa-file-text-o fa-2x',
-  style: 'BtnIcon'
-}
-const editBtn = {
-  buttonid: 'edit',
-  icon: 'fa fa-pencil fa-2x',
-  style: 'BtnIcon'
-}
-const moveUpBtn = {
-  buttonid: 'moveUp',
-  icon: 'fa fa-arrow-up fa-2x',
-  style: 'BtnIcon'
-}
-const moveDownBtn = {
-  buttonid: 'moveDown',
-  icon: 'fa fa-arrow-down fa-2x',
-  style: 'BtnIcon'
-}
-const removeBtn = {
-  buttonid: 'remove',
-  icon: 'fa fa-trash-o fa-2x',
-  style: 'BtnIcon'
-}
-
-const TreeMenu = props => {
-  const onSelect = btn => {
-    props.treeActions(btn)
-  }
-  return (
-    <div className="tree-menu" style={TreeMenuSty}>
-      <JButton btn={newBtn} parentClickHandler={onSelect} />
-      <JButton btn={editBtn} parentClickHandler={onSelect} />
-      <JButton btn={moveUpBtn} parentClickHandler={onSelect} />
-      <JButton btn={moveDownBtn} parentClickHandler={onSelect} />
-      <JButton btn={removeBtn} parentClickHandler={onSelect} />
-    </div>
-  )
-}
+const TreeMenu = ({ treeActions }) => (
+  <div className="tree-menu">
+    <Button className="common-icon-button" onClick={() => treeActions('new')}>
+      <FaRegFileAlt className="common-button-icon" />
+    </Button>
+    <Button className="common-icon-button" onClick={() => treeActions('edit')}>
+      <FaPencilAlt className="common-button-icon" />
+    </Button>
+    <Button
+      className="common-icon-button"
+      onClick={() => treeActions('moveUp')}
+    >
+      <FaArrowUp className="common-button-icon" />
+    </Button>
+    <Button
+      className="common-icon-button"
+      onClick={() => treeActions('moveDown')}
+    >
+      <FaArrowDown className="common-button-icon" />
+    </Button>
+    <Button
+      className="common-icon-button"
+      onClick={() => treeActions('remove')}
+    >
+      <FaTrashAlt className="common-button-icon" />
+    </Button>
+  </div>
+)
 
 export default TreeMenu

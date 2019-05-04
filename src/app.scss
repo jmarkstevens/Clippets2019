@@ -15,8 +15,8 @@ body {
 }
 
 .app-container {
-  background-color: #001000;
-  color: #eae3ea;
+  background-color: $background-color;
+  color: $foreground-color;
   display: flex;
   flex-direction: row;
   height: 100vh;

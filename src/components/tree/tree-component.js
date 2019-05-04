@@ -11,11 +11,12 @@ const TreeComponent = ({
   selectTreeNode,
   setTreeNodeClosed,
   showTreeEdit,
-  showTreeNew
+  showTreeNew,
+  treeActions
 }) => {
   return (
     <div id="TreeCtrlSty">
-      <TreeMenu />
+      <TreeMenu treeActions={treeActions} />
       <TreeList
         selectTreeNode={selectTreeNode}
         setTreeNodeClosed={setTreeNodeClosed}

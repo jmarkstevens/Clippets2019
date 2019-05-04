@@ -48,7 +48,7 @@
           {
             "children": [],
             "nodeid": "1.87.160",
-            "selected": true,
+            "selected": false,
             "title": "Setup",
             "type": "dev"
           }
@@ -64,7 +64,7 @@
           {
             "children": [],
             "nodeid": "1.151.161",
-            "selected": false,
+            "selected": true,
             "title": "Setup with flow",
             "type": "dev"
           },
