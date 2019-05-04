@@ -120,8 +120,8 @@ const TreeViewNode = props => {
 
 const TreeView = props => {
   const { data, options, iconClick, titleClick, customColors } = props
-  const childNodes = data.map(child => (
-    <li key={child.nodeid} style={liSty}>
+  const childNodes = data.map((child, index) => (
+    <li key={`${child.nodeid}${index + 1}`} style={liSty}>
       <TreeViewNode
         customColors={customColors}
         iconClick={iconClick}

@@ -1,25 +1,18 @@
 import React from 'react'
-import JTreeView from '../../common/TreeView'
+import TreeView from '../../common/TreeView'
 
-const TreeList = props => {
-  const { treeData } = props
-  const iconHandler = node => {
-    props.setTreeNodeClosed(node)
-  }
-  const clickHandler = node => {
-    props.selectTreeNode(node)
-  }
+const TreeList = ({ selectTreeNode, setTreeNodeClosed, treeData }) => {
   const options = {
     icon: { sun: 'dev', leaf: 'home', snow: 'sys' },
     typeName: ['node', 'type']
   }
   return (
     <div>
-      <JTreeView
+      <TreeView
         data={treeData}
         options={options}
-        iconClick={iconHandler}
-        titleClick={clickHandler}
+        iconClick={setTreeNodeClosed}
+        titleClick={selectTreeNode}
       />
     </div>
   )

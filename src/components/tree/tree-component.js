@@ -8,13 +8,19 @@ import TreeNew from './tree-new'
 const TreeComponent = ({
   treeData,
   currentTreeNode,
+  selectTreeNode,
+  setTreeNodeClosed,
   showTreeEdit,
   showTreeNew
 }) => {
   return (
     <div id="TreeCtrlSty">
       <TreeMenu />
-      <TreeList treeData={treeData} />
+      <TreeList
+        selectTreeNode={selectTreeNode}
+        setTreeNodeClosed={setTreeNodeClosed}
+        treeData={treeData}
+      />
       {showTreeEdit && <TreeEdit treeNode={currentTreeNode} />}
       {showTreeNew && <TreeNew />}
     </div>

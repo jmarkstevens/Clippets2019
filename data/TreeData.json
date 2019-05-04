@@ -255,7 +255,7 @@
         "type": "dev"
       }
     ],
-    "closed": false,
+    "closed": true,
     "nodeid": "162",
     "selected": false,
     "title": "Skuchain",
@@ -722,7 +722,7 @@
         "type": "dev"
       }
     ],
-    "closed": false,
+    "closed": true,
     "nodeid": "53",
     "selected": false,
     "title": "JMarkStevens",
@@ -893,6 +893,7 @@
         "type": ""
       }
     ],
+    "closed": true,
     "nodeid": "145",
     "selected": false,
     "title": "Dthera",
@@ -987,7 +988,7 @@
         "type": "sys"
       }
     ],
-    "closed": false,
+    "closed": true,
     "nodeid": "19",
     "selected": false,
     "title": "Mac",
