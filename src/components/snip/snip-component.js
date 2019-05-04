@@ -2,9 +2,18 @@ import React from 'react'
 
 import SnipButtons from './snip-buttons'
 
-const SnipComponent = ({ snipActions }) => (
+const SnipComponent = ({
+  apiGetClipboard,
+  apiSetClipboard,
+  currentSnip,
+  snipActions
+}) => (
   <div id="SnipComponent">
-    <SnipButtons snipActions={snipActions} />
+    <SnipButtons
+      copyHandler={() => apiSetClipboard(currentSnip)}
+      pasteHandler={dir => apiGetClipboard(dir)}
+      snipActions={snipActions}
+    />
   </div>
 )
 

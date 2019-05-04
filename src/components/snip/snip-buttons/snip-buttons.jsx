@@ -1,21 +1,19 @@
 import React from 'react'
 import Button from '@material-ui/core/Button'
 import {
+  FaPaste,
   FaRegArrowAltCircleDown,
   FaRegArrowAltCircleUp,
-  FaPencilAlt,
+  FaRegCopy,
   FaRegFileAlt,
   FaTrashAlt
 } from 'react-icons/fa'
 
-const SnipButtons = ({ snipActions }) => (
+const SnipButtons = ({ copyHandler, pasteHandler, snipActions }) => (
   <div className="snip-buttons">
     <div className="snip-button-group">
-      <Button
-        className="common-icon-button"
-        onClick={() => snipActions('edit')}
-      >
-        <FaPencilAlt className="common-button-icon" />
+      <Button className="common-icon-button" onClick={copyHandler}>
+        <FaRegCopy className="common-button-icon" />
       </Button>
     </div>
     <div className="snip-button-group">
@@ -23,17 +21,17 @@ const SnipButtons = ({ snipActions }) => (
         className="common-icon-button"
         onClick={() => snipActions('edit')}
       >
-        <FaPencilAlt className="common-button-icon" />
+        <FaPaste className="common-button-icon" />
       </Button>
       <Button
         className="common-icon-button"
-        onClick={() => snipActions('moveUp')}
+        onClick={() => pasteHandler('PasteSnipBefore')}
       >
         <FaRegArrowAltCircleUp className="common-button-icon" />
       </Button>
       <Button
         className="common-icon-button"
-        onClick={() => snipActions('moveDown')}
+        onClick={() => pasteHandler('PasteSnipAfter')}
       >
         <FaRegArrowAltCircleDown className="common-button-icon" />
       </Button>
