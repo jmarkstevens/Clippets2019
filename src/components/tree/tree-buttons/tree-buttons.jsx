@@ -8,8 +8,8 @@ import {
   FaTrashAlt
 } from 'react-icons/fa'
 
-const TreeMenu = ({ treeActions }) => (
-  <div className="tree-menu">
+const TreeButtons = ({ treeActions }) => (
+  <div className="tree-buttons">
     <Button className="common-icon-button" onClick={() => treeActions('new')}>
       <FaRegFileAlt className="common-button-icon" />
     </Button>
@@ -37,4 +37,4 @@ const TreeMenu = ({ treeActions }) => (
   </div>
 )
 
-export default TreeMenu
+export default TreeButtons

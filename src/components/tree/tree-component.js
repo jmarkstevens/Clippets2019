@@ -15,7 +15,7 @@ const TreeComponent = ({
   treeActions
 }) => {
   return (
-    <div id="TreeCtrlSty">
+    <div id="TreeComponent">
       <TreeButtons treeActions={treeActions} />
       <TreeList
         selectTreeNode={selectTreeNode}

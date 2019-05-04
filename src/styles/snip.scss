@@ -5,3 +5,15 @@
   padding: 0;
   width: calc(70% - 35px);
 }
+
+.snip-buttons {
+  display: flex;
+  font-size: 0.9em;
+  height: 40px;
+  margin: 10px 20px;
+  vertical-align: middle;
+}
+
+.snip-button-group {
+  margin-left: 20px;
+}

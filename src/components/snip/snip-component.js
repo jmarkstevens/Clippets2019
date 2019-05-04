@@ -1,8 +1,11 @@
 import React from 'react'
 
-const SnipComponent = props => {
-  console.log('SnipComponent props', props)
-  return <div>SnipComponent</div>
-}
+import SnipButtons from './snip-buttons'
+
+const SnipComponent = ({ snipActions }) => (
+  <div id="SnipComponent">
+    <SnipButtons snipActions={snipActions} />
+  </div>
+)
 
 export default SnipComponent

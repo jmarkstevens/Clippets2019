@@ -422,6 +422,16 @@ noscript {
   padding: 0;
   width: calc(70% - 35px); }
 
+.snip-buttons {
+  display: flex;
+  font-size: 0.9em;
+  height: 40px;
+  margin: 10px 20px;
+  vertical-align: middle; }
+
+.snip-button-group {
+  margin-left: 20px; }
+
 .tree-container {
   border: solid 0px darkslategray;
   height: calc(100% - 10px);
@@ -429,7 +439,7 @@ noscript {
   padding-left: 0;
   width: 30%; }
 
-.tree-menu {
+.tree-buttons {
   display: flex;
   font-size: 0.9em;
   height: 40px;
