@@ -8,6 +8,8 @@ import TreeNew from './tree-new'
 const TreeComponent = ({
   treeData,
   currentTreeNode,
+  saveTreeEdit,
+  saveTreeNew,
   selectTreeNode,
   setTreeNodeClosed,
   showTreeEdit,
@@ -22,8 +24,16 @@ const TreeComponent = ({
         setTreeNodeClosed={setTreeNodeClosed}
         treeData={treeData}
       />
-      {showTreeEdit && <TreeEdit treeNode={currentTreeNode} />}
-      {showTreeNew && <TreeNew />}
+      {showTreeEdit && (
+        <TreeEdit
+          saveTreeEdit={saveTreeEdit}
+          treeActions={treeActions}
+          treeNode={currentTreeNode}
+        />
+      )}
+      {showTreeNew && (
+        <TreeNew saveTreeNew={saveTreeNew} treeActions={treeActions} />
+      )}
     </div>
   )
 }
