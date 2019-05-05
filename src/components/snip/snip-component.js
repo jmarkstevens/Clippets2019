@@ -1,11 +1,17 @@
 import React from 'react'
 
 import SnipButtons from './snip-buttons'
+import SnipDetail from './snip-detail'
+import SnipList from './snip-list'
 
 const SnipComponent = ({
   apiGetClipboard,
   apiSetClipboard,
   currentSnip,
+  currentSnipIndex,
+  currentSnips,
+  saveSnipEdit,
+  selectSnipItem,
   snipActions
 }) => (
   <div id="SnipComponent">
@@ -14,6 +20,15 @@ const SnipComponent = ({
       pasteHandler={dir => apiGetClipboard(dir)}
       snipActions={snipActions}
     />
+    <div className="snip-detail-list-container">
+      <SnipList
+        apiSetClipboard={apiSetClipboard}
+        currentSnipIndex={currentSnipIndex}
+        currentSnips={currentSnips}
+        selectSnipItem={selectSnipItem}
+      />
+      <SnipDetail currentSnip={currentSnip} saveSnipEdit={saveSnipEdit} />
+    </div>
   </div>
 )
 

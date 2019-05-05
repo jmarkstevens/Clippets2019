@@ -9,7 +9,7 @@ const AppComponent = () => {
       <div className="tree-container">
         <TreeContainer />
       </div>
-      <div className="snips-container">
+      <div className="snip-container">
         <SnipContainer />
       </div>
     </div>

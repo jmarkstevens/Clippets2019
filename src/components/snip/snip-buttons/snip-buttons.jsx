@@ -19,15 +19,9 @@ const SnipButtons = ({ copyHandler, pasteHandler, snipActions }) => (
     <div className="snip-button-group">
       <Button
         className="common-icon-button"
-        onClick={() => snipActions('edit')}
+        onClick={() => snipActions('PasteSnipBefore')}
       >
         <FaPaste className="common-button-icon" />
-      </Button>
-      <Button
-        className="common-icon-button"
-        onClick={() => pasteHandler('PasteSnipBefore')}
-      >
-        <FaRegArrowAltCircleUp className="common-button-icon" />
       </Button>
       <Button
         className="common-icon-button"
@@ -37,18 +31,15 @@ const SnipButtons = ({ copyHandler, pasteHandler, snipActions }) => (
       </Button>
     </div>
     <div className="snip-button-group">
-      <Button className="common-icon-button" onClick={() => snipActions('new')}>
+      <Button
+        className="common-icon-button"
+        onClick={() => snipActions('newBefore')}
+      >
         <FaRegFileAlt className="common-button-icon" />
       </Button>
       <Button
         className="common-icon-button"
-        onClick={() => snipActions('moveUp')}
-      >
-        <FaRegArrowAltCircleUp className="common-button-icon" />
-      </Button>
-      <Button
-        className="common-icon-button"
-        onClick={() => snipActions('moveDown')}
+        onClick={() => snipActions('newAfter')}
       >
         <FaRegArrowAltCircleDown className="common-button-icon" />
       </Button>

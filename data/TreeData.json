@@ -39,7 +39,7 @@
       {
         "children": [],
         "nodeid": "1.2",
-        "selected": false,
+        "selected": true,
         "title": "Javascript",
         "type": "dev"
       },
@@ -64,7 +64,7 @@
           {
             "children": [],
             "nodeid": "1.151.161",
-            "selected": true,
+            "selected": false,
             "title": "Setup with flow",
             "type": "dev"
           },
@@ -162,7 +162,7 @@
         "type": "dev"
       }
     ],
-    "closed": false,
+    "closed": true,
     "nodeid": "149",
     "selected": false,
     "title": "Mokriya",
@@ -460,7 +460,7 @@
         "type": "dev"
       }
     ],
-    "closed": false,
+    "closed": true,
     "nodeid": "22",
     "selected": false,
     "title": "Dev Projects",
@@ -506,7 +506,7 @@
         "type": "dev"
       }
     ],
-    "closed": false,
+    "closed": true,
     "nodeid": "163",
     "selected": false,
     "title": "Mini server",
@@ -557,7 +557,7 @@
         "type": "dev"
       }
     ],
-    "closed": false,
+    "closed": true,
     "nodeid": "12",
     "selected": false,
     "title": "Deployment",
