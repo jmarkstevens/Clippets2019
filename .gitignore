@@ -13,3 +13,5 @@ yarn-error.log*
 
 # build assets
 /dist/assets
+
+/Clippets-darwin-x64

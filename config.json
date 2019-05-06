@@ -1,8 +1,8 @@
 {
-  "darwin": {
+  "darwinApp0": {
     "dataRoot": "/Kykas/Active/react/clippets/data/"
   },
-  "darwinApp0": {
+  "darwin": {
     "dataRoot": "/Google Drive/Kykas/ClippetsData/"
   },
   "darwinApp": {

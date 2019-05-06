@@ -1,9 +1,10 @@
 /* eslint-disable no-console */
+// eslint-disable-next-line import/no-extraneous-dependencies
 const { app, BrowserWindow, ipcMain } = require('electron')
 const fs = require('fs')
 const config = require('./config.json')
 
-const useDevTools = true
+const useDevTools = false
 
 let configRoot
 switch (process.platform) {
