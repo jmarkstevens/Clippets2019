@@ -161,83 +161,6 @@
     ]
   },
   {
-    "nodeid": "10",
-    "snips": [
-      {
-        "comment": "",
-        "snip": "16-05933-MM7"
-      },
-      {
-        "comment": "",
-        "snip": "California"
-      },
-      {
-        "comment": "",
-        "snip": "Southern"
-      },
-      {
-        "comment": "",
-        "snip": "Geeta Christina Stevens"
-      },
-      {
-        "comment": "",
-        "snip": "Janaka Mark Stevens"
-      },
-      {
-        "comment": "",
-        "snip": "Janaka Mark Stevens\n30509 Alta Mesa Dr.\nValley Center, CA  92082\n760-715-7234"
-      },
-      {
-        "comment": "",
-        "snip": "30509 alta mesa dr., valley center, ca, 92082"
-      },
-      {
-        "comment": "",
-        "snip": "30509 Alta Mesa Dr\nValley Center CA  92082"
-      },
-      {
-        "comment": "",
-        "snip": "Residence located at;\n"
-      },
-      {
-        "comment": "Court clerk",
-        "snip": "619-557-5620"
-      },
-      {
-        "comment": "",
-        "snip": "UPDATE AgLibraryKeyword SET includeParents = 0 WHERE includeParents = 1"
-      },
-      {
-        "comment": "",
-        "snip": "CSD 1099\n106Sum\n106A/B - J\n106Dec\n107\n108\n122A-1\nSupporting Documentation Cover Sheet and applicable documents\n"
-      },
-      {
-        "comment": "amount over regular payment due mr cooper",
-        "snip": "1332.40"
-      },
-      {
-        "comment": "",
-        "snip": "4909 Adrianna payoff data\n\n"
-      },
-      {
-        "comment": "public ip 07/20/18",
-        "snip": "192.225.117.173"
-      },
-      {
-        "comment": "",
-        "snip": "800-308-2227 mmi\nhope hotline 888-995-4673\n\nmmi Tiffany "
-      },
-      {
-        "comment": "",
-        "snip": "lat=33.264611\nlon=-117.083043"
-      },
-      {
-        "comment": "",
-        "snip": "1576 east ocean blvd., Newport beach, california 92661"
-      }
-    ]
-  },
-  {
     "nodeid": "10.11",
     "snips": []
   },
@@ -852,10 +775,6 @@
     ]
   },
   {
-    "nodeid": "22.32",
-    "snips": []
-  },
-  {
     "nodeid": "22.32.35",
     "snips": [
       {
@@ -1126,19 +1045,6 @@
     ]
   },
   {
-    "nodeid": "12.52",
-    "snips": [
-      {
-        "comment": "",
-        "snip": "138.68.55.247"
-      },
-      {
-        "comment": "",
-        "snip": "f8eff53fa40fc11f8ca419fc3e"
-      }
-    ]
-  },
-  {
     "nodeid": "53",
     "snips": [
       {
@@ -1318,19 +1224,6 @@
     "snips": []
   },
   {
-    "nodeid": "53.59.60",
-    "snips": [
-      {
-        "comment": "",
-        "snip": "cd /var/www/BasicID\n"
-      },
-      {
-        "comment": "",
-        "snip": "export BASICIDPORT=5100"
-      }
-    ]
-  },
-  {
     "nodeid": "53.59.61",
     "snips": [
       {
@@ -1340,36 +1233,6 @@
       {
         "comment": "",
         "snip": "export CLIPPETSPORT=5200"
-      }
-    ]
-  },
-  {
-    "nodeid": "53.59.62",
-    "snips": [
-      {
-        "comment": "",
-        "snip": "cd /var/www/ngCodeViewer\n"
-      },
-      {
-        "comment": "",
-        "snip": "export CODEVIEWERPORT=5300"
-      },
-      {
-        "comment": "",
-        "snip": "test.codeviewer.calitek.com"
-      }
-    ]
-  },
-  {
-    "nodeid": "53.59.63",
-    "snips": [
-      {
-        "comment": "",
-        "snip": "cd /var/www/PalmInfo\n"
-      },
-      {
-        "comment": "",
-        "snip": "export PALMINFOPORT=5400"
       }
     ]
   },
@@ -1634,35 +1497,6 @@
     ]
   },
   {
-    "nodeid": "22.79",
-    "snips": []
-  },
-  {
-    "nodeid": "22.79.80",
-    "snips": [
-      {
-        "comment": "",
-        "snip": "cd /Users/janaka/Kykas/Projects/NodejsPatterns/DataAccess/Json"
-      },
-      {
-        "comment": "",
-        "snip": "cd /Users/janaka/Kykas/Projects/NodejsPatterns/DataAccess/MongoDB"
-      },
-      {
-        "comment": "",
-        "snip": "cd /Users/janaka/Kykas/Projects/NodejsPatterns/DataAccess/MySql"
-      },
-      {
-        "comment": "",
-        "snip": "cd /Users/janaka/Kykas/Projects/NodejsPatterns/DataAccess/SQLite"
-      },
-      {
-        "comment": "",
-        "snip": "cd /Users/janaka/Kykas/Projects/NodejsPatterns/DataAccess/SqlServer"
-      }
-    ]
-  },
-  {
     "nodeid": "10.82",
     "snips": [
       {
@@ -1729,49 +1563,6 @@
     ]
   },
   {
-    "nodeid": "53.59.84",
-    "snips": [
-      {
-        "comment": "",
-        "snip": "cd /var/www/JMarkStevens\n"
-      },
-      {
-        "comment": "",
-        "snip": "export CALITEKPORT=5000"
-      }
-    ]
-  },
-  {
-    "nodeid": "53.59.85",
-    "snips": [
-      {
-        "comment": "",
-        "snip": "cd /var/www/MastersDarshan\n"
-      },
-      {
-        "comment": "",
-        "snip": "export MASTERSDARSHANPORT=6700"
-      }
-    ]
-  },
-  {
-    "nodeid": "53.59.86",
-    "snips": [
-      {
-        "comment": "",
-        "snip": "cd /var/www/Plantsigns\n"
-      },
-      {
-        "comment": "",
-        "snip": "export PLANTSIGNSPORT=6600"
-      },
-      {
-        "comment": "blue host ip",
-        "snip": "50.87.249.14"
-      }
-    ]
-  },
-  {
     "nodeid": "1.87",
     "snips": [
       {
@@ -1834,24 +1625,6 @@
     ]
   },
   {
-    "nodeid": "53.59.89",
-    "snips": [
-      {
-        "comment": "",
-        "snip": "cd /var/www/jmsExamples\n"
-      }
-    ]
-  },
-  {
-    "nodeid": "22.91",
-    "snips": [
-      {
-        "comment": "",
-        "snip": "cd /Users/janaka/Kykas/Projects/ReactNativePatterns/JCommon"
-      }
-    ]
-  },
-  {
     "nodeid": "22.91.93",
     "snips": [
       {
@@ -1885,60 +1658,6 @@
       {
         "comment": "",
         "snip": "cd /Users/janaka/Kykas/Projects/ReactNativePatterns/nativeAPI"
-      }
-    ]
-  },
-  {
-    "nodeid": "22.94",
-    "snips": [
-      {
-        "comment": "",
-        "snip": "cd /Users/janaka/Kykas/wwwProjects/BasicID"
-      },
-      {
-        "comment": "",
-        "snip": "cd /Users/janaka/Kykas/wwwProjects/MastersDarshan"
-      },
-      {
-        "comment": "",
-        "snip": "cd /Users/janaka/Kykas/wwwProjects/PlantSigns"
-      },
-      {
-        "comment": "",
-        "snip": "cd /Users/janaka/Kykas/wwwProjects/SpamSit"
-      }
-    ]
-  },
-  {
-    "nodeid": "22.95",
-    "snips": [
-      {
-        "comment": "",
-        "snip": "JMarkStevens.com"
-      },
-      {
-        "comment": "",
-        "snip": "PlantInfo.org"
-      },
-      {
-        "comment": "",
-        "snip": "PalmList mobile"
-      },
-      {
-        "comment": "",
-        "snip": "IRS"
-      },
-      {
-        "comment": "",
-        "snip": "Nationstar harp"
-      },
-      {
-        "comment": "",
-        "snip": "Finger String mobile"
-      },
-      {
-        "comment": "",
-        "snip": "Stress Not mobile"
       }
     ]
   },
@@ -2117,39 +1836,6 @@
       {
         "comment": "",
         "snip": "yarn upgrade-interactive"
-      }
-    ]
-  },
-  {
-    "nodeid": "102",
-    "snips": [
-      {
-        "comment": "Public ip internet connection",
-        "snip": "72.214.63.217"
-      },
-      {
-        "comment": "",
-        "snip": "POST /manage/access/login/index HTTP/1.1\r\nHost: 68.15.17.244\r\nConnection: keep-alive\r\nContent-Length: 65\r\nCache-Control: max-age=0\r\nOrigin: https://68.15.17.244\r\nUpgrade-Insecure-Requests: 1\r\nUser-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36\r\nContent-Type: application/x-www-form-urlencoded\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\r\nReferer: https://68.15.17.244/manage/access/login/\r\nAccept-Encoding: gzip, deflate, br\r\nAccept-Language: en-US,en;q=0.8\r\nCookie: en-visit=23adb4078c132e2a037f5ba74b5c9ad443ef8790; session_id=3d22f7c5be71f8148fbda6318ec63f916e2f07c1\nForm Data\nview parsed\nemi_username=mstevens%40merlincsi.com&emi_password=sinet099%29dev"
-      },
-      {
-        "comment": "",
-        "snip": "\nconst Test = '/manage/commands//?api_key=989bed52-71bc-4a83-ae12-827b476f61b6';\napiTest(Test, 'Test');\n"
-      },
-      {
-        "comment": "",
-        "snip": "authenticity_token:\"PINv69fNKo3xkazwpteCG92DFjaV82UhESMr8NmEBfQ=\""
-      },
-      {
-        "comment": "",
-        "snip": "https://jmarkstevens.freshdesk.com/support/login?authenticity_token=PINv69fNKo3xkazwpteCG92DFjaV82UhESMr8NmEBfQ=&user_session[email]=jms@kykas.com&user_session[password]=sinet099)fresh"
-      },
-      {
-        "comment": "",
-        "snip": "https://jmarkstevens.freshdesk.com/support/login?utf8=%E2%9C%93&authenticity_token=Db11wAQ6A1bwn%2BcG080CsE4705dKTUVB7PPwzCIGk6I%3D&user_session%5Bemail%5D=mstevens%40merlincsi.com&user_session%5Bpassword%5D=sinet099%29fresh&user_session%5Bremember_me%5D=0&user_session%5Bremember_me%5D=1"
-      },
-      {
-        "comment": "Public IP Endian Switchboard",
-        "snip": "68.15.17.244"
       }
     ]
   },
@@ -2389,43 +2075,6 @@
       {
         "comment": "",
         "snip": "Friday 4-14\n\nSinet Portal, tutorials for certificate install and also connect install and configure."
-      }
-    ]
-  },
-  {
-    "nodeid": "76.128",
-    "snips": [
-      {
-        "comment": "",
-        "snip": "openssl req -new -newkey rsa:2048 -nodes -keyout sinet.key -out sinet.csr"
-      },
-      {
-        "comment": "",
-        "snip": "*.sinet.com"
-      },
-      {
-        "comment": "",
-        "snip": "Merlin CSI"
-      },
-      {
-        "comment": "",
-        "snip": "Poway"
-      },
-      {
-        "comment": "",
-        "snip": "California"
-      },
-      {
-        "comment": "",
-        "snip": "US"
-      },
-      {
-        "comment": "",
-        "snip": "BV3>MVAvsgUWECTwaxGsqqiC2nQjkVkiWbazTH,e"
-      },
-      {
-        "comment": "",
-        "snip": "-----BEGIN CERTIFICATE REQUEST-----\nMIIDBTCCAe0CAQAwgYQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIDApDYWxpZm9ybmlh\nMQ4wDAYDVQQHDAVQb3dheTETMBEGA1UECgwKTWVybGluIENTSTEUMBIGA1UEAwwL\nKi5zaW5ldC5jb20xJTAjBgkqhkiG9w0BCQEWFm1zdGV2ZW5zQG1lcmxpbmNzaS5j\nb20wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDWRekVtT8Re8iRNmbI\nBixIv2aEJVI3ltDftCGfsHyACpQ6TvMoHu/xpOjONCZSBgQwik+1B0NxYyiW35ht\ncbrFTkYzSq9LdG0Gi9pLaLNpPLi09yfziMqrn+72QoK6ZH6sV1HwSRxW1jr3k1fu\ngpN0hsXdqj4tGRNA/T0Ac71LnuhRLnoOFNXlKSlzojtn0ITPftsS2kqhhejQSNkH\nEaR3m61lZ3usvPFbmwfiKNDGbdmeTJlLJGnLW4Vy1hHeZftcwrX5VNwKy+ns1vJu\nLANfNAfZet+WNMZR3cX0i6nxGcMTm/IuqKIEuHCgE6DL6Hn8K5LOSYVCRnsEyXVN\ns+UXAgMBAAGgOzAUBgkqhkiG9w0BCQIxBwwFU2luZXQwIwYJKoZIhvcNAQkHMRYM\nFEJBdmNXYy82ajJ0cUdMclVUYS9hMA0GCSqGSIb3DQEBCwUAA4IBAQA6V68GIMuf\nrU9PYJ11qoYa6Hbg9sx88xkKHdOQXQ4zGMJqnp5KgE9X/T084dEwejwAQdlm/jzD\nAbj5qjJH4YbF7gk2P5rZh+KvzDxOau5hYxSWr8+SYpbjFtisWUMvoIbjhYdeXyP6\n9OTtjoDYpAS154cpNZvrqLX5S9eVltPd4LYt7hQKJFSYcCgZ3FXHV7cvNxhF1/FG\nh6joWUjuT8AQXlF5ZbK10K0q4lmFJMNHl38xdKTvju17kQ0XxBD9imcPJxiLp7Uz\nIFqvyuYL+u6szgg+KJmQ2MlZdWR9Il3rp5zxCEGwnefVE7+qyKvBEGPYr014yaYn\n6YSmF+Sxv8Vb\n-----END CERTIFICATE REQUEST-----"
       }
     ]
   },
@@ -2935,10 +2584,6 @@
         "snip": "cd /Users/janaka/Kykas/Projects/ngPalmInfo\n"
       }
     ]
-  },
-  {
-    "nodeid": "145",
-    "snips": []
   },
   {
     "nodeid": "145.146",
@@ -3520,19 +3165,6 @@
     ]
   },
   {
-    "nodeid": "162",
-    "snips": [
-      {
-        "comment": "",
-        "snip": ""
-      },
-      {
-        "comment": "reflector license key",
-        "snip": "AUWCTR-3YH9KK-FM8LVN-TSRJX6-WGXBEN-VT5CN4"
-      }
-    ]
-  },
-  {
     "nodeid": "162.163",
     "snips": [
       {
@@ -4005,28 +3637,7 @@
     ]
   },
   {
-    "nodeid": "147",
-    "snips": [
-      {
-        "comment": "",
-        "snip": "Open-Source  Contributions/  Community  Servicea.\n\nCan  spend  up  to  two(2)paid  hours  per  week  on  open  source  contributionsor  community  serviceb.\n\nOpen  Source  contributions  MUST  reference  back  to  the  SurgeForward  GitHub  accountc.\n\nCommunity  Service  must  be  software  developmentrelatedand  provide  credit  backto  Surge  via  advertisement  of  some  kind  (such  as  wearing  a  Surge  logo  t-shirt)d.\n\nReport  back  to  Surge  Management(we  encourage  pictures,  event  details,  sharing  of  experiences,  etc.)"
-      },
-      {
-        "comment": "",
-        "snip": "cat ~/.ssh/jmarkstevens-GitHub.pub | pbcopy"
-      },
-      {
-        "comment": "",
-        "snip": "jmarkstevens-Bitbucket.pub"
-      }
-    ]
-  },
-  {
     "nodeid": "53.148",
-    "snips": []
-  },
-  {
-    "nodeid": "149",
     "snips": []
   },
   {

@@ -4,7 +4,7 @@
       {
         "children": [],
         "nodeid": "1.153",
-        "selected": false,
+        "selected": true,
         "title": "Apollo Client",
         "type": "dev"
       },
@@ -135,136 +135,6 @@
     "children": [
       {
         "children": [],
-        "nodeid": "149.156",
-        "selected": false,
-        "title": "Jane",
-        "type": "dev"
-      },
-      {
-        "children": [],
-        "nodeid": "149.154",
-        "selected": false,
-        "title": "KW project",
-        "type": "dev"
-      },
-      {
-        "children": [],
-        "nodeid": "149.150",
-        "selected": false,
-        "title": "Mapping",
-        "type": "dev"
-      },
-      {
-        "children": [],
-        "nodeid": "149.152",
-        "selected": false,
-        "title": "Prototype",
-        "type": "dev"
-      }
-    ],
-    "closed": true,
-    "nodeid": "149",
-    "selected": false,
-    "title": "Mokriya",
-    "type": "dev"
-  },
-  {
-    "children": [],
-    "nodeid": "147",
-    "selected": false,
-    "title": "Surge",
-    "type": "dev"
-  },
-  {
-    "children": [
-      {
-        "children": null,
-        "nodeid": "162.165",
-        "selected": false,
-        "title": "React Native",
-        "type": "dev"
-      },
-      {
-        "children": null,
-        "nodeid": "162.163",
-        "selected": false,
-        "title": "Skumobile",
-        "type": "dev"
-      },
-      {
-        "children": [],
-        "nodeid": "162.174",
-        "title": "Crickets",
-        "type": "dev"
-      },
-      {
-        "children": null,
-        "nodeid": "162.164",
-        "selected": false,
-        "title": "git",
-        "type": "dev"
-      },
-      {
-        "children": [],
-        "nodeid": "162.170",
-        "title": "Hub v4 org",
-        "type": "dev"
-      },
-      {
-        "children": [],
-        "nodeid": "162.172",
-        "title": "Hub v5 org",
-        "type": "dev"
-      },
-      {
-        "children": [],
-        "nodeid": "162.173",
-        "title": "Hub v5 user",
-        "type": "dev"
-      },
-      {
-        "children": [],
-        "nodeid": "162.171",
-        "title": "Hub v4 user",
-        "type": "dev"
-      },
-      {
-        "children": [],
-        "nodeid": "162.166",
-        "title": "Hub-199",
-        "type": "dev"
-      },
-      {
-        "children": [],
-        "nodeid": "162.169",
-        "title": "Hub-198",
-        "type": "dev"
-      },
-      {
-        "children": [],
-        "nodeid": "162.167",
-        "selected": false,
-        "title": "Skc standups",
-        "type": "dev"
-      },
-      {
-        "children": [],
-        "nodeid": "162.168",
-        "selected": false,
-        "title": "Test scripts",
-        "type": "dev"
-      }
-    ],
-    "closed": true,
-    "nodeid": "162",
-    "selected": false,
-    "title": "Skuchain",
-    "type": "dev"
-  },
-  {
-    "children": [
-      {
-        "children": [],
         "nodeid": "22.45",
         "selected": false,
         "title": "Lightroom",
@@ -341,22 +211,6 @@
         "children": [
           {
             "children": [],
-            "nodeid": "22.79.80",
-            "selected": false,
-            "title": "cd mac",
-            "type": "dev"
-          }
-        ],
-        "closed": true,
-        "nodeid": "22.79",
-        "selected": false,
-        "title": "NodejsPatterns",
-        "type": "dev"
-      },
-      {
-        "children": [
-          {
-            "children": [],
             "nodeid": "22.23.88",
             "selected": false,
             "title": "PalmInfo update",
@@ -370,93 +224,10 @@
         "type": "dev"
       },
       {
-        "children": [
-          {
-            "children": [],
-            "nodeid": "22.32.55",
-            "selected": false,
-            "title": "Mocha/Enzyme",
-            "type": "dev"
-          },
-          {
-            "children": [],
-            "nodeid": "22.32.48",
-            "selected": false,
-            "title": "Gallery",
-            "type": "dev"
-          },
-          {
-            "children": [],
-            "nodeid": "22.32.50",
-            "selected": false,
-            "title": "Change directory Mac",
-            "type": "dev"
-          },
-          {
-            "children": [],
-            "nodeid": "22.32.35",
-            "selected": false,
-            "title": "Change directory win",
-            "type": "dev"
-          },
-          {
-            "children": [],
-            "nodeid": "22.32.49",
-            "selected": false,
-            "title": "cd win 14",
-            "type": "dev"
-          }
-        ],
-        "closed": true,
-        "nodeid": "22.32",
-        "selected": false,
-        "title": "React Patterns",
-        "type": "dev"
-      },
-      {
-        "children": [
-          {
-            "children": [],
-            "nodeid": "22.91.93",
-            "selected": false,
-            "title": "General",
-            "type": "dev"
-          }
-        ],
-        "closed": true,
-        "nodeid": "22.91",
-        "selected": false,
-        "title": "React Native Patterns",
-        "type": "dev"
-      },
-      {
         "children": [],
         "nodeid": "22.25",
         "selected": false,
         "title": "SpamProtester",
-        "type": "dev"
-      },
-      {
-        "children": [
-          {
-            "children": null,
-            "nodeid": "22.95.96",
-            "selected": false,
-            "title": "PlantInfo",
-            "type": "dev"
-          }
-        ],
-        "closed": true,
-        "nodeid": "22.95",
-        "selected": false,
-        "title": "To Do",
-        "type": "dev"
-      },
-      {
-        "children": [],
-        "nodeid": "22.94",
-        "selected": false,
-        "title": "wwwProjects",
         "type": "dev"
       }
     ],
@@ -490,7 +261,7 @@
         "type": "dev"
       }
     ],
-    "closed": true,
+    "closed": false,
     "nodeid": "27",
     "selected": false,
     "title": "JMStevens GitHub",
@@ -506,7 +277,7 @@
         "type": "dev"
       }
     ],
-    "closed": true,
+    "closed": false,
     "nodeid": "163",
     "selected": false,
     "title": "Mini server",
@@ -537,13 +308,6 @@
       },
       {
         "children": [],
-        "nodeid": "12.52",
-        "selected": false,
-        "title": "DigitalOcean Nginx droplet",
-        "type": "dev"
-      },
-      {
-        "children": [],
         "nodeid": "12.13",
         "selected": false,
         "title": "node on server",
@@ -557,7 +321,7 @@
         "type": "dev"
       }
     ],
-    "closed": true,
+    "closed": false,
     "nodeid": "12",
     "selected": false,
     "title": "Deployment",
@@ -582,6 +346,7 @@
       {
         "children": [],
         "nodeid": "53.161",
+        "selected": false,
         "title": "sql queries",
         "type": "dev"
       },
@@ -664,55 +429,6 @@
             "selected": false,
             "title": "Common",
             "type": "dev"
-          },
-          {
-            "children": [],
-            "nodeid": "53.59.60",
-            "selected": false,
-            "title": "BasicID",
-            "type": "dev"
-          },
-          {
-            "children": [],
-            "nodeid": "53.59.62",
-            "selected": false,
-            "title": "CodeViewer",
-            "type": "dev"
-          },
-          {
-            "children": [],
-            "nodeid": "53.59.84",
-            "selected": false,
-            "title": "JMarkStevens.com",
-            "type": "dev"
-          },
-          {
-            "children": [],
-            "nodeid": "53.59.89",
-            "selected": false,
-            "title": "JMarkStevens gallery",
-            "type": "dev"
-          },
-          {
-            "children": [],
-            "nodeid": "53.59.63",
-            "selected": false,
-            "title": "PalmInfo",
-            "type": "dev"
-          },
-          {
-            "children": [],
-            "nodeid": "53.59.85",
-            "selected": false,
-            "title": "MastersDarshan",
-            "type": "dev"
-          },
-          {
-            "children": [],
-            "nodeid": "53.59.86",
-            "selected": false,
-            "title": "PlantSigns",
-            "type": "dev"
           }
         ],
         "closed": false,
@@ -726,177 +442,6 @@
     "nodeid": "53",
     "selected": false,
     "title": "JMarkStevens",
-    "type": "dev"
-  },
-  {
-    "children": [
-      {
-        "children": [
-          {
-            "children": [],
-            "nodeid": "102.106.122",
-            "selected": false,
-            "title": "Sinet Data",
-            "type": "dev"
-          },
-          {
-            "children": [],
-            "nodeid": "102.106.121",
-            "selected": false,
-            "title": "Sinet Portal",
-            "type": "dev"
-          }
-        ],
-        "closed": true,
-        "nodeid": "102.106",
-        "selected": false,
-        "title": "Issues",
-        "type": "dev"
-      },
-      {
-        "children": [],
-        "closed": true,
-        "nodeid": "102.107",
-        "selected": false,
-        "title": "Players",
-        "type": "dev"
-      },
-      {
-        "children": [],
-        "nodeid": "102.129",
-        "selected": false,
-        "title": "siNet Portal",
-        "type": "dev"
-      },
-      {
-        "children": [],
-        "nodeid": "102.130",
-        "selected": false,
-        "title": "Switchboard",
-        "type": "dev"
-      },
-      {
-        "children": [],
-        "nodeid": "102.131",
-        "selected": false,
-        "title": "DevServer01",
-        "type": "dev"
-      },
-      {
-        "children": [],
-        "nodeid": "102.134",
-        "selected": false,
-        "title": "static ip for ubuntu server",
-        "type": "dev"
-      },
-      {
-        "children": [
-          {
-            "children": [
-              {
-                "children": [],
-                "nodeid": "102.103.104.105",
-                "selected": false,
-                "title": "Week01",
-                "type": "dev"
-              },
-              {
-                "children": [],
-                "nodeid": "102.103.104.123",
-                "selected": false,
-                "title": "Week02",
-                "type": "dev"
-              },
-              {
-                "children": [],
-                "nodeid": "102.103.104.126",
-                "selected": false,
-                "title": "Week03",
-                "type": "dev"
-              },
-              {
-                "children": [],
-                "nodeid": "102.103.104.127",
-                "selected": false,
-                "title": "Week04",
-                "type": "dev"
-              },
-              {
-                "children": [],
-                "nodeid": "102.103.104.132",
-                "selected": false,
-                "title": "Week05",
-                "type": "dev"
-              },
-              {
-                "children": [],
-                "nodeid": "102.103.104.135",
-                "selected": false,
-                "title": "Week06",
-                "type": "dev"
-              }
-            ],
-            "closed": false,
-            "nodeid": "102.103.104",
-            "selected": false,
-            "title": "Set1",
-            "type": "dev"
-          },
-          {
-            "children": [
-              {
-                "children": null,
-                "nodeid": "102.103.136.137",
-                "selected": false,
-                "title": "Week07",
-                "type": "dev"
-              }
-            ],
-            "closed": false,
-            "nodeid": "102.103.136",
-            "selected": false,
-            "title": "Set2",
-            "type": "dev"
-          }
-        ],
-        "closed": true,
-        "nodeid": "102.103",
-        "selected": false,
-        "title": "Timesheet",
-        "type": "dev"
-      }
-    ],
-    "closed": true,
-    "nodeid": "102",
-    "selected": false,
-    "title": "Merlin CSI",
-    "type": "dev"
-  },
-  {
-    "children": [
-      {
-        "children": [],
-        "nodeid": "145.148",
-        "title": "Bugs",
-        "type": "dev"
-      },
-      {
-        "children": [],
-        "nodeid": "145.146",
-        "title": "Setup",
-        "type": "sys"
-      },
-      {
-        "children": [],
-        "nodeid": "145.147",
-        "title": "cd",
-        "type": ""
-      }
-    ],
-    "closed": true,
-    "nodeid": "145",
-    "selected": false,
-    "title": "Dthera",
     "type": "dev"
   },
   {
@@ -956,16 +501,9 @@
         "selected": false,
         "title": "Add new sftp-user with limits",
         "type": "sys"
-      },
-      {
-        "children": [],
-        "nodeid": "76.128",
-        "selected": false,
-        "title": "Generate CSR",
-        "type": "dev"
       }
     ],
-    "closed": true,
+    "closed": false,
     "nodeid": "76",
     "selected": false,
     "title": "Ubuntu",
@@ -988,69 +526,11 @@
         "type": "sys"
       }
     ],
-    "closed": true,
+    "closed": false,
     "nodeid": "19",
     "selected": false,
     "title": "Mac",
     "type": "sys"
-  },
-  {
-    "children": [
-      {
-        "children": [],
-        "nodeid": "10.159",
-        "selected": false,
-        "title": "Drives from Matadham server",
-        "type": "dev"
-      },
-      {
-        "children": [],
-        "nodeid": "10.100",
-        "selected": false,
-        "title": "Things",
-        "type": "home"
-      },
-      {
-        "children": [],
-        "nodeid": "10.82",
-        "selected": false,
-        "title": "Recipes",
-        "type": "home"
-      },
-      {
-        "children": [],
-        "nodeid": "10.98",
-        "selected": false,
-        "title": "Geeta's drugs",
-        "type": "home"
-      },
-      {
-        "children": [],
-        "nodeid": "10.36",
-        "selected": false,
-        "title": "Work targets",
-        "type": "home"
-      },
-      {
-        "children": [],
-        "nodeid": "10.11",
-        "selected": false,
-        "title": "Pending returns",
-        "type": "home"
-      },
-      {
-        "children": [],
-        "nodeid": "10.18",
-        "selected": false,
-        "title": "Projects and todo",
-        "type": "home"
-      }
-    ],
-    "closed": true,
-    "nodeid": "10",
-    "selected": false,
-    "title": "Matadham",
-    "type": "home"
   },
   {
     "children": [
@@ -1080,7 +560,7 @@
       {
         "children": null,
         "nodeid": "166.167",
-        "selected": true,
+        "selected": false,
         "title": "Test new node child",
         "type": "dev"
       },
