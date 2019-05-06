@@ -1,6 +1,6 @@
 [
   {
-    "nextid": 165,
+    "nextid": 168,
     "nodeid": "001"
   },
   {
@@ -4005,7 +4005,7 @@
     ]
   },
   {
-    "nodeid": ".147",
+    "nodeid": "147",
     "snips": [
       {
         "comment": "",
@@ -4583,6 +4583,33 @@
       {
         "comment": "",
         "snip": "ln -s /usr/local/etc/nginx/sites-available/multi.calitek.com /etc/nginx/sites-enabled/multi.calitek.com"
+      }
+    ]
+  },
+  {
+    "nodeid": "166",
+    "snips": [
+      {
+        "comment": "",
+        "snip": "well, how did it work"
+      }
+    ]
+  },
+  {
+    "nodeid": "166.167",
+    "snips": [
+      {
+        "comment": "",
+        "snip": "new node child"
+      }
+    ]
+  },
+  {
+    "nodeid": "166.168",
+    "snips": [
+      {
+        "comment": "",
+        "snip": "another node child"
       }
     ]
   }

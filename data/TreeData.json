@@ -25,7 +25,7 @@
       {
         "children": [],
         "nodeid": "1.6",
-        "selected": true,
+        "selected": false,
         "title": "Git",
         "type": "dev"
       },
@@ -76,7 +76,7 @@
             "type": "dev"
           }
         ],
-        "closed": false,
+        "closed": true,
         "nodeid": "1.151",
         "selected": false,
         "title": "React Native",
@@ -460,7 +460,7 @@
         "type": "dev"
       }
     ],
-    "closed": true,
+    "closed": false,
     "nodeid": "22",
     "selected": false,
     "title": "Dev Projects",
@@ -1074,5 +1074,28 @@
     "selected": false,
     "title": "Windows 8.1",
     "type": "sys"
+  },
+  {
+    "children": [
+      {
+        "children": null,
+        "nodeid": "166.167",
+        "selected": true,
+        "title": "Test new node child",
+        "type": "dev"
+      },
+      {
+        "children": [],
+        "nodeid": "166.168",
+        "selected": false,
+        "title": "another node child",
+        "type": "dev"
+      }
+    ],
+    "closed": false,
+    "nodeid": "166",
+    "selected": false,
+    "title": "Test new root node",
+    "type": "dev"
   }
 ]

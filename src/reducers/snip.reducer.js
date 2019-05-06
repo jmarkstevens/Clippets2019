@@ -2,7 +2,8 @@ import lodash from 'lodash'
 
 let _snipsIndex = 0
 
-function _setCurrentSnips(treeNode, _snipData) {
+function setCurrentSnips(treeNode, snipState) {
+  const _snipData = snipState
   const snipsRecord = lodash.find(_snipData.allSnips, {
     nodeid: treeNode.nodeid
   })
@@ -15,13 +16,15 @@ function _setCurrentSnips(treeNode, _snipData) {
   return _snipData
 }
 
-function _selectSnipItem(snipItem, _snipData) {
+function selectSnipItem(snipItem, snipState) {
+  const _snipData = snipState
   _snipData.currentSnipIndex = lodash.indexOf(_snipData.currentSnips, snipItem)
   _snipData.currentSnip = _snipData.currentSnips[_snipData.currentSnipIndex]
   return _snipData
 }
 
-function _newSnip(action, clip, _snipData) {
+function setNewSnip(action, clip, snipState) {
+  const _snipData = snipState
   const newSnip = { snip: clip, comment: '' }
   if (action === 'NewSnipAfter' || action === 'PasteSnipAfter')
     _snipData.currentSnipIndex += 1
@@ -31,7 +34,8 @@ function _newSnip(action, clip, _snipData) {
   return _snipData
 }
 
-function _moveSnipItem(action, _snipData) {
+function moveSnipItem(action, snipState) {
+  const _snipData = snipState
   let tIndex = _snipData.currentSnipIndex
   switch (action) {
     case 'MoveSnipUp':
@@ -59,7 +63,8 @@ function _moveSnipItem(action, _snipData) {
   return _snipData
 }
 
-function _gotSnipData(_allSnips, _snipData) {
+function gotSnipData(_allSnips, snipState) {
+  const _snipData = snipState
   _snipData.allSnips = _allSnips
   const snipsRecord = lodash.find(_snipData.allSnips, { nodeid: '001' })
   const snipsIndex = lodash.indexOf(_snipData.allSnips, snipsRecord)
@@ -67,7 +72,8 @@ function _gotSnipData(_allSnips, _snipData) {
   return _snipData
 }
 
-function _newTreeNode(newNodeID, _snipData) {
+function newTreeNode(newNodeID, snipState) {
+  const _snipData = snipState
   const newSnips = { nodeid: newNodeID.nodeID, snips: [] }
   _snipData.allSnips.push(newSnips)
   let snipsRecord = lodash.find(_snipData.allSnips, { nodeid: '001' })
@@ -84,14 +90,16 @@ function _newTreeNode(newNodeID, _snipData) {
   return _snipData
 }
 
-function _removeSnips(nodeID, _snipData) {
+function removeSnips(nodeID, snipState) {
+  const _snipData = snipState
   const snipsRecord = lodash.find(_snipData.allSnips, { nodeid: nodeID })
   const snipsIndex = lodash.indexOf(_snipData.allSnips, snipsRecord)
   _snipData.allSnips.splice(snipsIndex, 1)
   return _snipData
 }
 
-function _saveSnipEdit(newSnip, _snipData) {
+function saveSnipEdit(newSnip, snipState) {
+  const _snipData = snipState
   _snipData.currentSnips[_snipData.currentSnipIndex] = newSnip
   _snipData.allSnips[_snipsIndex].snips = _snipData.currentSnips
   _snipData.currentSnip = newSnip
@@ -107,29 +115,29 @@ const initialSnipState = {
 }
 
 export default function handleActions(state = initialSnipState, action) {
-  const _snipData = Object.assign({}, state)
+  const snipState = Object.assign({}, state)
   switch (action.type) {
     case 'ApiGetSnipDataDone':
-      return _gotSnipData(action.data, _snipData)
+      return gotSnipData(action.data, snipState)
     case 'ApiGetClipboardDone':
-      return _newSnip(action.position, action.clip, _snipData)
+      return setNewSnip(action.position, action.clip, snipState)
     case 'NewSnipAfter':
     case 'NewSnipBefore':
-      return _newSnip(action.type, '', _snipData)
+      return setNewSnip(action.type, '', snipState)
     case 'MoveSnipUp':
     case 'MoveSnipDown':
     case 'RemoveSnip':
-      return _moveSnipItem(action.type, _snipData)
+      return moveSnipItem(action.type, snipState)
     case 'RemoveSnips':
-      return _removeSnips(action.nodeid, _snipData)
+      return removeSnips(action.nodeid, snipState)
     case 'SelectTreeNode':
-      return _setCurrentSnips(action.node, _snipData)
+      return setCurrentSnips(action.node, snipState)
     case 'SelectSnipItem':
-      return _selectSnipItem(action.item, _snipData)
+      return selectSnipItem(action.item, snipState)
     case 'SaveSnipEdit':
-      return _saveSnipEdit(action.item, _snipData)
+      return saveSnipEdit(action.item, snipState)
     case 'NewTreeNode':
-      return _newTreeNode(action.nodeid, _snipData)
+      return newTreeNode(action.nodeid, snipState)
     default:
       return state
   }

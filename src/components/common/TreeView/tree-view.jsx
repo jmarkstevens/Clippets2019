@@ -2,17 +2,13 @@ import classNames from 'classnames'
 import React from 'react'
 import lodashGet from 'lodash/get'
 
-const TreeRootSty = { lineHeight: '120%' }
-const liSty = { listStyleType: 'none' }
-const ulSty = { height: 'inherit', WebkitPaddingStart: '16px' }
-const ulStyle = { height: 'inherit', WebkitPaddingStart: '16px' }
 const iconStyBase = {
   background: "url('./img/sun.ico') 0/16px no-repeat",
   marginRight: '10px',
   width: '16px'
 }
 
-const defaultColors = {
+const titleColors = {
   parent: '#AF90A5',
   parentSelected: '#7BB53B',
   endnode: '#afac87',
@@ -20,7 +16,7 @@ const defaultColors = {
 }
 
 const TreeViewNode = props => {
-  const { customColors, iconClick, node, options, titleClick } = props
+  const { iconClick, node, options, titleClick } = props
   const clickHandler = () => {
     titleClick(node)
   }
@@ -31,16 +27,14 @@ const TreeViewNode = props => {
       clickHandler()
     }
   }
-  const titleColors = customColors || defaultColors
-  const titleSty = { marginTop: '2px' }
+  const titleSty = {}
   let childNodes
   let hasChildren = false
 
   if (node.children && node.children.length > 0) {
     childNodes = node.children.map(child => (
-      <li key={child.nodeid} style={liSty}>
+      <li className="tree-view-li" key={child.nodeid}>
         <TreeViewNode
-          customColors={customColors}
           iconClick={iconClick}
           node={child}
           options={options}
@@ -64,7 +58,7 @@ const TreeViewNode = props => {
   if (node.closed !== null) isClosed = node.closed
 
   const branch = isClosed ? null : (
-    <ul id="ulStyle" key={node.nodeid} style={ulStyle}>
+    <ul className="tree-view-ul" id="children-ul">
       {childNodes}
     </ul>
   )
@@ -79,21 +73,20 @@ const TreeViewNode = props => {
     }
   )
 
-  const iconSty = Object.assign({}, iconStyBase)
+  const iconSty = {}
   const iconType = lodashGet(props, options.typeName)
   if (iconType === options.icon.sun)
-    iconSty.background = "url('./img/sun.ico') 0/16px no-repeat"
+    iconSty.background = "url('./img/sun.ico') 0/1em no-repeat"
   else if (iconType === options.icon.leaf)
-    iconSty.background = "url('./img/leaf.ico') 0/16px no-repeat"
+    iconSty.background = "url('./img/leaf.ico') 0/1em no-repeat"
   else if (iconType === options.icon.snow)
-    iconSty.background = "url('./img/snow.ico') 0/16px no-repeat"
-  // else iconSty.background = "url('./img/sun.ico') 0/16px no-repeat";
+    iconSty.background = "url('./img/snow.ico') 0/1em no-repeat"
 
   return (
     <div id="TreeNode">
       <div className={TreeNodePClass}>
         <div
-          id="iconSty"
+          className="tree-node-icon"
           onClick={iconHandler}
           onKeyPress={iconHandler}
           role="button"
@@ -103,7 +96,7 @@ const TreeViewNode = props => {
           &nbsp;
         </div>
         <div
-          id="titleSty"
+          className="tree-node-title"
           onClick={clickHandler}
           onKeyPress={clickHandler}
           role="button"
@@ -119,11 +112,10 @@ const TreeViewNode = props => {
 }
 
 const TreeView = props => {
-  const { data, options, iconClick, titleClick, customColors } = props
+  const { data, iconClick, options, titleClick } = props
   const childNodes = data.map((child, index) => (
-    <li key={`${child.nodeid}${index + 1}`} style={liSty}>
+    <li className="tree-view-li" key={`${child.nodeid}${index + 1}`}>
       <TreeViewNode
-        customColors={customColors}
         iconClick={iconClick}
         node={child}
         options={options}
@@ -132,10 +124,8 @@ const TreeView = props => {
     </li>
   ))
   return (
-    <div id="TreeRootSty" style={TreeRootSty}>
-      <ul id="ulSty" key="ulRoot" style={ulSty}>
-        {childNodes}
-      </ul>
+    <div className="tree-view">
+      <ul className="tree-view-ul">{childNodes}</ul>
     </div>
   )
 }

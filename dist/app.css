@@ -15,6 +15,24 @@
 .common-icon-button-mobile:disabled {
   color: #5d9452 !important; }
 
+.tree-view {
+  font-size: 1em;
+  line-height: 100%; }
+
+.tree-view-ul {
+  height: inherit; }
+
+.tree-view-li {
+  list-style-type: none;
+  margin-bottom: 2px;
+  padding-left: 1em; }
+
+.tree-node-icon {
+  width: 16px; }
+
+.tree-node-title {
+  margin-top: 3px; }
+
 .tree-node-p {
   cursor: pointer;
   display: flex; }
@@ -25,7 +43,7 @@
 
 .tree-node-p-no-toggle {
   color: #fff;
-  margin: 0 0 0 12px; }
+  margin: 0; }
 
 .tree-node-icon {
   height: 21px;
