@@ -2,8 +2,7 @@ import React from 'react'
 
 import TreeList from './tree-list'
 import TreeButtons from './tree-buttons'
-import TreeEdit from './tree-edit'
-import TreeNew from './tree-new'
+import TreeEditNew from './tree-edit-new'
 
 const TreeComponent = ({
   treeData,
@@ -19,21 +18,21 @@ const TreeComponent = ({
   return (
     <div id="TreeComponent">
       <TreeButtons treeActions={treeActions} />
+      {(showTreeEdit || showTreeNew) && (
+        <TreeEditNew
+          saveTreeEdit={saveTreeEdit}
+          saveTreeNew={saveTreeNew}
+          showTreeEdit={showTreeEdit}
+          showTreeNew={showTreeNew}
+          treeActions={treeActions}
+          treeNode={currentTreeNode}
+        />
+      )}
       <TreeList
         selectTreeNode={selectTreeNode}
         setTreeNodeClosed={setTreeNodeClosed}
         treeData={treeData}
       />
-      {showTreeEdit && (
-        <TreeEdit
-          saveTreeEdit={saveTreeEdit}
-          treeActions={treeActions}
-          treeNode={currentTreeNode}
-        />
-      )}
-      {showTreeNew && (
-        <TreeNew saveTreeNew={saveTreeNew} treeActions={treeActions} />
-      )}
     </div>
   )
 }
