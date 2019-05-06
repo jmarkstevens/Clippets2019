@@ -2,6 +2,8 @@
 // eslint-disable-next-line import/no-extraneous-dependencies
 const { app, BrowserWindow, ipcMain } = require('electron')
 const fs = require('fs')
+const path = require('path')
+
 const config = require('./config.json')
 
 const useDevTools = false
@@ -27,7 +29,7 @@ require('./js/mainipc.js')(ipcMain)
 
 let mainWindow = null
 const mainWindowOptions = {
-  icon: './dist/img/Clippets1.ico',
+  icon: path.join(__dirname, 'dist/img/clippets.icns'),
   title: 'Clippets',
   webPreferences: {
     nodeIntegration: true
