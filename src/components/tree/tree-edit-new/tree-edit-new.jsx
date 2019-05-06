@@ -15,10 +15,9 @@ const initTreeNode = {
 class TreeEditNew extends React.Component {
   state = { treeNode: initTreeNode }
 
-  componentDidUpdate = () => {
+  componentDidMount = () => {
     const { showTreeEdit, treeNode } = this.props
     if (showTreeEdit) this.setState({ treeNode })
-    else this.setState({ treeNode: initTreeNode })
   }
 
   clickHandler = buttonid => {
@@ -56,8 +55,8 @@ class TreeEditNew extends React.Component {
     const { treeNode } = this.state
     return (
       <div className="tree-edit-new">
-        {showTreeEdit && <EditButtons clickHandler={this.clickHandler} />}
-        {showTreeNew && <NewButtons clickHandler={this.clickHandler} />}
+        {showTreeEdit && <EditButtons handleClick={this.clickHandler} />}
+        {showTreeNew && <NewButtons handleClick={this.clickHandler} />}
         <TreeDetail
           treeNode={treeNode}
           name="editNode"

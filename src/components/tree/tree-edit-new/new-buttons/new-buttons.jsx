@@ -8,7 +8,7 @@ import {
 } from 'react-icons/fa'
 
 const TreeButtons = ({ handleClick }) => (
-  <div className="tree-buttons">
+  <div className="tree-edit-new-buttons">
     <Button
       className="common-icon-button"
       onClick={() => handleClick('before')}

@@ -507,10 +507,23 @@ noscript {
   font-size: 0.9em;
   height: 40px;
   justify-content: space-between;
-  margin: 10px auto;
+  margin: 10px;
   text-align: center;
   vertical-align: middle;
   width: 250px; }
+
+.tree-edit-new {
+  background-color: #001500;
+  margin: 10px;
+  width: 250px; }
+
+.tree-edit-new-buttons {
+  display: flex;
+  font-size: 0.9em;
+  height: 40px;
+  justify-content: space-between;
+  text-align: center;
+  vertical-align: middle; }
 
 body {
   font-size: 16px;
