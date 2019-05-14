@@ -16,7 +16,7 @@ const SnipComponent = ({
 }) => (
   <div id="SnipComponent">
     <SnipButtons
-      copyHandler={() => apiSetClipboard(currentSnip)}
+      copyHandler={() => apiSetClipboard(currentSnip.snip)}
       pasteHandler={dir => apiGetClipboard(dir)}
       snipActions={snipActions}
     />
