@@ -1,12 +1,9 @@
 {
   "darwin": {
-    "dataRoot": "/Kykas/Active/react/clippets/data/"
+    "dataRoot": "/Kykas/Projects/clippets/data/"
   },
   "darwinApp0": {
     "dataRoot": "/Google Drive/Kykas/ClippetsData/"
-  },
-  "darwinApp": {
-    "dataRoot": "/Kykas/ClippetsData/"
   },
   "linux": {
     "dataRoot": "/var/www/Clippets/data/"

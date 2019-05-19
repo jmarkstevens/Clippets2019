@@ -1,5 +1,4 @@
 /* eslint-disable no-console */
-// eslint-disable-next-line import/no-extraneous-dependencies
 const { app, BrowserWindow, ipcMain } = require('electron')
 const fs = require('fs')
 const path = require('path')
@@ -25,11 +24,11 @@ switch (process.platform) {
 
 const rootDataPath = configRoot
 
-require('./js/mainipc.js')(ipcMain)
+require('./main-ipc')(ipcMain)
 
 let mainWindow = null
 const mainWindowOptions = {
-  icon: path.join(__dirname, 'dist/img/clippets.icns'),
+  icon: path.join(__dirname, 'dist', 'img', 'clippets.icns'),
   title: 'Clippets',
   webPreferences: {
     nodeIntegration: true

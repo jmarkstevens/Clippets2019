@@ -1,6 +1,7 @@
 /* eslint-disable no-console */
 const fs = require('fs')
-const config = require('../../config.json')
+
+const config = require('../config.json')
 
 let configRoot
 switch (process.platform) {
