@@ -20,8 +20,8 @@ switch (process.platform) {
 
 const dataRoot = configRoot
 
-module.exports.getTreeData = (event, doneCallBack) => {
-  const filePath = `${dataRoot}TreeData.json`
+module.exports.getJson = (filename, event, doneCallBack) => {
+  const filePath = `${dataRoot}${filename}.json`
   const jsonReadCallBack = (err, data) => {
     if (err) doneCallBack(`treedata readFile error ${filePath}`)
     else {
@@ -32,30 +32,10 @@ module.exports.getTreeData = (event, doneCallBack) => {
   fs.readFile(filePath, jsonReadCallBack)
 }
 
-module.exports.setTreeData = data => {
-  const filePath = `${dataRoot}TreeData.json`
+module.exports.setJson = (filename, data) => {
+  const filePath = `${dataRoot}${filename}.json`
   const writeFileCallBack = err => {
     if (err) console.log('error saving sniplist.json file ')
-  }
-  fs.writeFile(filePath, JSON.stringify(data.data, null, 2), writeFileCallBack)
-}
-
-module.exports.getSnipData = (event, doneCallBack) => {
-  const filePath = `${dataRoot}SnipData.json`
-  const jsonReadCallBack = (err, data) => {
-    if (err) doneCallBack(`SnipData readFile error ${filePath}`)
-    else {
-      const jsonData = JSON.parse(data.toString())
-      doneCallBack(event, jsonData)
-    }
-  }
-  fs.readFile(filePath, jsonReadCallBack)
-}
-
-module.exports.setSnipData = data => {
-  const filePath = `${dataRoot}SnipData.json`
-  const writeFileCallBack = err => {
-    if (err) console.log('error saving SnipData.json file ')
   }
   fs.writeFile(filePath, JSON.stringify(data.data, null, 2), writeFileCallBack)
 }

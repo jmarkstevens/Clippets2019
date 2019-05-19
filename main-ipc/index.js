@@ -1,5 +1,5 @@
 /* eslint-disable no-console */
-const getSetJson = require('./get-set-data')
+const { getJson, setJson } = require('./get-set-json')
 
 module.exports = ipc => {
   console.log('mainipc called.')
@@ -8,12 +8,12 @@ module.exports = ipc => {
     event.sender.send('server:GetSnipDataDone', data)
   }
   const onGetSnipData = event => {
-    getSetJson.getSnipData(event, getSnipDataDone)
+    getJson('SnipData', event, getSnipDataDone)
   }
   ipc.on('client:GetSnipData', onGetSnipData)
 
   const onSetSnipData = (event, data) => {
-    getSetJson.setSnipData(data)
+    setJson('SnipData', data)
   }
   ipc.on('client:SetSnipData', onSetSnipData)
 
@@ -21,12 +21,12 @@ module.exports = ipc => {
     event.sender.send('server:GetTreeDataDone', data)
   }
   const onGetTreeData = event => {
-    getSetJson.getTreeData(event, getTreeDataDone)
+    getJson('TreeData', event, getTreeDataDone)
   }
   ipc.on('client:GetTreeData', onGetTreeData)
 
   const onSetTreeData = (event, data) => {
-    getSetJson.setTreeData(data)
+    setJson('TreeData', data)
   }
   ipc.on('client:SetTreeData', onSetTreeData)
 }
