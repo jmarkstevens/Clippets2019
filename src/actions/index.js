@@ -7,9 +7,9 @@ export {
   apiSetClipboard,
   apiSetSnipData,
   apiSetTreeData
-} from './api.actions'
-export { ipcMiddleware, startIpc } from './api.ipc'
-export { saveSnipEdit, selectSnipItem, snipActions } from './snip.actions'
+} from './api-actions'
+export { ipcMiddleware, startIpc } from './api-ipc'
+export { saveSnipEdit, selectSnipItem, snipActions } from './snip-actions'
 export {
   saveTreeEdit,
   saveTreeNew,
@@ -17,4 +17,4 @@ export {
   setTreeNodeClosed,
   treeActions,
   treeChangeActions
-} from './tree.actions'
+} from './tree-actions'

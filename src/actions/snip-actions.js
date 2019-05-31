@@ -1,4 +1,4 @@
-import * as apiActions from './api.actions'
+import * as apiActions from './api-actions'
 
 export function saveSnipEdit(item) {
   return (dispatch, getState) => {
